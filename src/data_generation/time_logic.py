@@ -16,7 +16,3 @@ def past_date():
 def future_date(past_date):
     future_date = past_date + timedelta(seconds=random.randint(1, upperLimit))
     return future_date
-
-
-pd = past_date()
-fd = future_date(pd)
