@@ -1,11 +1,11 @@
 bug_id,created_at,closed_at,priority,severity,component,assignee_id,labels,summary,description
-1,100,100,high,critical,obfuscation,assignee_1,ui,fakesummary,interim
-2,100,100,critical,major,backend,assignee_1,performance,fakesummary,interim
-3,100,100,medium,minor,auth,assignee_4,regression,fakesummary,interim
-4,100,100,critical,major,ui,assignee_5,ui,fakesummary,interim
-5,100,100,medium,blocker,obfuscation,assignee_4,backend,fakesummary,interim
-6,100,100,low,minor,payments,assignee_3,backend,fakesummary,interim
-7,100,100,medium,critical,registration,assignee_5,ui,fakesummary,interim
-8,100,100,critical,critical,payments,assignee_3,regression,fakesummary,interim
-9,100,100,medium,blocker,registration,assignee_4,regression,fakesummary,interim
-10,100,100,medium,major,payments,assignee_3,ui,fakesummary,interim
+1,2024-04-16 03:13:43.871019,2025-04-07 03:03:09.871019,low,minor,registration,assignee_2,backend,fakesummary,interim
+2,2024-10-24 06:19:55.871019,2025-07-09 17:05:31.871019,high,major,obfuscation,assignee_1,ui,fakesummary,interim
+3,2024-11-24 17:24:06.871019,2025-12-09 08:15:39.871019,low,minor,registration,assignee_4,ui,fakesummary,interim
+4,2025-02-06 18:31:05.871019,2025-03-07 10:12:48.871019,critical,minor,ui,assignee_5,ui,fakesummary,interim
+5,2026-01-03 03:08:35.871019,2027-07-13 12:06:48.871019,low,minor,auth,assignee_1,regression,fakesummary,interim
+6,2024-07-06 06:11:52.871019,2024-07-30 11:15:11.871019,medium,major,obfuscation,assignee_2,ui,fakesummary,interim
+7,2025-08-23 14:47:36.871019,2025-12-01 11:46:51.871019,critical,blocker,auth,assignee_1,performance,fakesummary,interim
+8,2025-08-07 23:58:56.871019,2025-09-23 23:20:17.871019,medium,minor,ui,assignee_1,ui,fakesummary,interim
+9,2024-03-18 23:23:11.871019,2025-10-30 15:03:28.871019,critical,major,auth,assignee_5,regression,fakesummary,interim
+10,2025-05-06 11:41:37.871019,2025-11-10 10:32:21.871019,high,blocker,auth,assignee_4,performance,fakesummary,interim
