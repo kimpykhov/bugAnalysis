@@ -1,11 +1,11 @@
-bug_id,created_at,closed_at,priority,severity,component,assignee_id,labels,summary,description
-1,2024-04-16 03:13:43.871019,2025-04-07 03:03:09.871019,low,minor,registration,assignee_2,backend,fakesummary,interim
-2,2024-10-24 06:19:55.871019,2025-07-09 17:05:31.871019,high,major,obfuscation,assignee_1,ui,fakesummary,interim
-3,2024-11-24 17:24:06.871019,2025-12-09 08:15:39.871019,low,minor,registration,assignee_4,ui,fakesummary,interim
-4,2025-02-06 18:31:05.871019,2025-03-07 10:12:48.871019,critical,minor,ui,assignee_5,ui,fakesummary,interim
-5,2026-01-03 03:08:35.871019,2027-07-13 12:06:48.871019,low,minor,auth,assignee_1,regression,fakesummary,interim
-6,2024-07-06 06:11:52.871019,2024-07-30 11:15:11.871019,medium,major,obfuscation,assignee_2,ui,fakesummary,interim
-7,2025-08-23 14:47:36.871019,2025-12-01 11:46:51.871019,critical,blocker,auth,assignee_1,performance,fakesummary,interim
-8,2025-08-07 23:58:56.871019,2025-09-23 23:20:17.871019,medium,minor,ui,assignee_1,ui,fakesummary,interim
-9,2024-03-18 23:23:11.871019,2025-10-30 15:03:28.871019,critical,major,auth,assignee_5,regression,fakesummary,interim
-10,2025-05-06 11:41:37.871019,2025-11-10 10:32:21.871019,high,blocker,auth,assignee_4,performance,fakesummary,interim
+bug_id,created_at,closed_at,days_to_close,priority,severity,component,assignee_id,labels,summary,description
+1,2024-02-06 00:59:08.892712,2024-10-26 19:40:35.892712,263,critical,critical,auth,assignee_2,regression ui performance backend,fakesummary,interim1
+2,2024-11-15 15:01:19.892712,2025-09-14 11:55:53.892712,302,critical,blocker,obfuscation,assignee_1,ui backend,fakesummary,interim1
+3,2024-10-17 13:57:00.892712,2026-02-20 16:21:22.892712,491,high,blocker,obfuscation,assignee_2,performance backend regression ui,fakesummary,interim1
+4,2024-05-06 10:39:28.892712,2024-10-29 11:36:23.892712,176,medium,major,backend,assignee_2,ui regression backend,fakesummary,interim1
+5,2025-10-01 13:49:24.892712,2025-12-04 20:18:05.892712,64,medium,minor,registration,assignee_2,ui,fakesummary,interim1
+6,2025-04-21 03:39:08.892712,2025-05-14 09:43:14.892712,23,medium,blocker,infra,assignee_2,ui backend regression performance,fakesummary,interim1
+7,2025-04-26 00:33:31.892712,2026-10-07 09:59:42.892712,529,critical,major,registration,assignee_2,regression,fakesummary,interim1
+8,2024-07-19 01:15:49.892712,2025-06-29 02:37:04.892712,345,medium,minor,ui,assignee_4,backend performance ui regression,fakesummary,interim1
+9,2025-03-08 20:59:30.892712,2026-12-14 08:09:04.892712,645,medium,critical,payments,assignee_4,backend ui regression,fakesummary,interim1
+10,2025-08-23 10:38:54.892712,2025-08-29 05:11:50.892712,5,high,blocker,registration,assignee_5,regression,fakesummary,interim1

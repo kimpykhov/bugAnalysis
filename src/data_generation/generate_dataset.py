@@ -21,11 +21,13 @@ with open(OUTPUT_PATH, "w", newline="", encoding="utf-8") as file:
         closed_at = generate_closed_at(created_at)
         days = closed_days(created_at, closed_at)
         label_amount = random.randint(1, 4)
+        bug_labels = " ".join(random.sample(distributions.labels, k=label_amount))
 
         writer.writerow([i, created_at, closed_at, days,
-                         random.choices(distributions.priority, weights=distributions.weights_priority, k=1),
-                         random.choices(distributions.severity, weights=distributions.weights_severity, k=1),
+                         random.choices(distributions.priority, weights=distributions.weights_priority, k=1)[0],
+                         random.choices(distributions.severity, weights=distributions.weights_severity, k=1)[0],
                          random.choice(distributions.component),
                          random.choice(distributions.users),
-                         random.choices(distributions.labels, weights=distributions.weights_labels, k=label_amount),
+                         bug_labels,
                          "fakesummary", "interim1"])
+

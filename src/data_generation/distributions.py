@@ -14,7 +14,8 @@ weights_priority = [1, 4, 3, 2]
 
 weights_severity = [1, 4, 3, 2]
 
-weights_labels = [4, 3, 2, 0.5]
+# right now it will be extra, to think later
+# weights_labels = [4, 3, 2, 0.5]
 
 user_performance = [4, 2, 3, 1]
 
