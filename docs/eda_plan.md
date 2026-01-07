@@ -19,29 +19,29 @@ EDA is not aimed at:
 
 **Expectations:**
 - Each Row = One Bug
-- No Duplicate Bug_IDs
+- No Duplicate `bug_id`
 
 ### 2.2 Gap Checks
 For each field:
-- Percentage of Nulls / Empty
+- Percentage of `null` / `empty`
 - Are gaps allowed according to the data design?
 
 **Expectations:**
-- Required fields (created_at, closed_at, priority, severity, component, assignee_id) without gaps
+- Required fields (`created_at`, `closed_at`, `priority`, `severity`, `component`, `assignee_id`) without gaps
 - text fields may be empty
 
 ## 3. Temporal Logic
 ### 3.1 Date Validation
-- closed_at >= created_at for all records
+- `closed_at >= created_at` for all records
 - no future dates relative to the generation time
 - no abnormally large days_to_close values
 
 **Expectations:**
 - no negative values
-- days_to_close > 0
+- `days_to_close` > 0
 
 ### 3.2 Close Time Distribution
-- days_to_close histogram
+- `days_to_close` histogram
 - min / median / mean / max
 
 **Goal:**
@@ -59,17 +59,17 @@ For each field:
 - no extreme skewness (e.g., 90% FAST)
 
 ### 4.2 Regression → Classification Relationship
-- days_to_close ranges correspond to classes
+- `days_to_close` ranges correspond to classes
 - absence Overlaps or logical conflicts
 
 ## 5. Categorical Feature Analysis
 ### 5.1 Distributions
 For each feature:
-- priority
-- severity
-- component
-- assignee_id
-- labels (number per bug)
+- `priority`
+- `severity`
+- `component`
+- `assignee_id`
+- `labels` (number per bug)
 
 **Checks:**
 - conformity to expected frequencies
@@ -78,10 +78,10 @@ For each feature:
 ### 5.2 Impact of Features on the Target
 Aggregate-Level Analysis:
 - mean / median days_to_close by:
-    - priority
-    - severity
-    - component
-    - assignee_id
+    - `priority`
+    - `severity`
+    - `component`
+    - `assignee_id`
 
 - FAST / MEDIUM / SLOW for the same groups
 
