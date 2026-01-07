@@ -16,7 +16,7 @@ with open(OUTPUT_PATH, "w", newline="", encoding="utf-8") as file:
     writer.writerow(["bug_id", "created_at", "closed_at", "days_to_close", "priority", "severity", "component",
                      "assignee_id", "labels", "summary", "description"])
     now = datetime.now()
-    for i in range(1, 11, 1):
+    for i in range(1, 1001, 1):
         created_at = generate_created_at(now)
         closed_at = generate_closed_at(created_at)
         days = closed_days(created_at, closed_at)

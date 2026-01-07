@@ -1,11 +1,1001 @@
 bug_id,created_at,closed_at,days_to_close,priority,severity,component,assignee_id,labels,summary,description
-1,2024-02-06 00:59:08.892712,2024-10-26 19:40:35.892712,263,critical,critical,auth,assignee_2,regression ui performance backend,fakesummary,interim1
-2,2024-11-15 15:01:19.892712,2025-09-14 11:55:53.892712,302,critical,blocker,obfuscation,assignee_1,ui backend,fakesummary,interim1
-3,2024-10-17 13:57:00.892712,2026-02-20 16:21:22.892712,491,high,blocker,obfuscation,assignee_2,performance backend regression ui,fakesummary,interim1
-4,2024-05-06 10:39:28.892712,2024-10-29 11:36:23.892712,176,medium,major,backend,assignee_2,ui regression backend,fakesummary,interim1
-5,2025-10-01 13:49:24.892712,2025-12-04 20:18:05.892712,64,medium,minor,registration,assignee_2,ui,fakesummary,interim1
-6,2025-04-21 03:39:08.892712,2025-05-14 09:43:14.892712,23,medium,blocker,infra,assignee_2,ui backend regression performance,fakesummary,interim1
-7,2025-04-26 00:33:31.892712,2026-10-07 09:59:42.892712,529,critical,major,registration,assignee_2,regression,fakesummary,interim1
-8,2024-07-19 01:15:49.892712,2025-06-29 02:37:04.892712,345,medium,minor,ui,assignee_4,backend performance ui regression,fakesummary,interim1
-9,2025-03-08 20:59:30.892712,2026-12-14 08:09:04.892712,645,medium,critical,payments,assignee_4,backend ui regression,fakesummary,interim1
-10,2025-08-23 10:38:54.892712,2025-08-29 05:11:50.892712,5,high,blocker,registration,assignee_5,regression,fakesummary,interim1
+1,2024-11-21 15:05:40.062082,2025-06-12 15:32:39.062082,203,high,major,infra,assignee_3,ui regression backend,fakesummary,interim1
+2,2024-07-03 04:29:22.062082,2024-12-15 16:59:31.062082,165,high,blocker,obfuscation,assignee_3,backend,fakesummary,interim1
+3,2025-12-30 09:16:15.062082,2027-01-28 04:33:36.062082,393,high,critical,registration,assignee_2,regression,fakesummary,interim1
+4,2024-04-15 21:43:53.062082,2026-03-02 21:29:10.062082,685,low,critical,obfuscation,assignee_3,ui performance backend,fakesummary,interim1
+5,2025-12-11 07:51:08.062082,2027-09-05 13:20:53.062082,633,medium,minor,ui,assignee_3,regression ui performance backend,fakesummary,interim1
+6,2024-11-07 07:49:44.062082,2025-01-11 03:28:05.062082,64,medium,major,backend,assignee_5,performance backend,fakesummary,interim1
+7,2024-10-31 03:14:03.062082,2026-04-06 15:32:10.062082,522,high,major,ui,assignee_1,regression,fakesummary,interim1
+8,2024-07-06 14:21:25.062082,2025-04-12 23:53:50.062082,280,medium,major,registration,assignee_4,backend,fakesummary,interim1
+9,2024-10-13 01:19:58.062082,2026-04-15 05:28:29.062082,549,high,critical,auth,assignee_2,performance backend,fakesummary,interim1
+10,2024-04-24 02:20:16.062082,2025-11-20 13:22:18.062082,575,high,blocker,auth,assignee_1,ui regression backend,fakesummary,interim1
+11,2025-04-06 23:17:08.062082,2026-07-04 16:25:52.062082,453,high,major,obfuscation,assignee_1,regression backend,fakesummary,interim1
+12,2025-10-24 20:49:09.062082,2026-05-06 05:54:02.062082,193,low,critical,backend,assignee_3,backend regression performance,fakesummary,interim1
+13,2024-03-28 14:52:16.062082,2026-02-07 11:56:17.062082,680,high,critical,ui,assignee_4,backend ui performance regression,fakesummary,interim1
+14,2025-04-11 08:37:43.062082,2026-07-08 16:01:16.062082,453,medium,blocker,backend,assignee_5,ui,fakesummary,interim1
+15,2024-08-03 02:08:32.062082,2025-06-08 15:48:10.062082,309,low,major,obfuscation,assignee_3,backend ui regression,fakesummary,interim1
+16,2024-10-24 16:32:13.062082,2026-01-16 13:28:29.062082,448,high,critical,registration,assignee_3,ui performance,fakesummary,interim1
+17,2024-11-29 01:36:45.062082,2025-01-07 00:47:17.062082,38,low,major,ui,assignee_3,backend ui regression,fakesummary,interim1
+18,2024-02-19 05:19:29.062082,2025-06-25 22:21:36.062082,492,medium,major,auth,assignee_1,performance backend ui,fakesummary,interim1
+19,2024-12-22 20:20:02.062082,2025-01-01 10:58:34.062082,9,high,blocker,auth,assignee_3,backend performance ui,fakesummary,interim1
+20,2024-02-07 22:07:51.062082,2025-02-21 05:59:08.062082,379,low,major,obfuscation,assignee_3,ui backend,fakesummary,interim1
+21,2025-05-08 06:12:20.062082,2027-02-05 07:17:14.062082,638,low,major,registration,assignee_4,regression,fakesummary,interim1
+22,2025-02-21 10:05:38.062082,2025-05-24 20:40:22.062082,92,critical,major,infra,assignee_3,regression ui,fakesummary,interim1
+23,2024-03-30 19:18:22.062082,2025-01-07 12:22:38.062082,282,low,minor,backend,assignee_4,ui,fakesummary,interim1
+24,2025-11-30 23:18:35.062082,2026-03-16 13:43:29.062082,105,low,critical,infra,assignee_5,backend ui performance,fakesummary,interim1
+25,2025-02-04 18:35:52.062082,2025-12-13 08:25:55.062082,311,high,major,auth,assignee_4,backend performance regression ui,fakesummary,interim1
+26,2025-04-20 17:02:29.062082,2025-05-02 23:26:50.062082,12,medium,blocker,registration,assignee_4,backend performance,fakesummary,interim1
+27,2024-02-13 10:58:20.062082,2025-01-09 18:18:13.062082,331,critical,blocker,ui,assignee_2,performance,fakesummary,interim1
+28,2025-09-10 02:34:28.062082,2026-12-30 11:50:07.062082,476,critical,critical,backend,assignee_1,backend regression,fakesummary,interim1
+29,2025-06-03 19:20:23.062082,2027-05-10 09:37:11.062082,705,critical,major,payments,assignee_1,backend,fakesummary,interim1
+30,2024-03-13 13:07:09.062082,2025-01-13 02:16:20.062082,305,medium,minor,ui,assignee_1,ui performance backend,fakesummary,interim1
+31,2025-07-25 10:44:37.062082,2026-06-18 06:46:20.062082,327,high,critical,auth,assignee_3,regression performance,fakesummary,interim1
+32,2024-03-25 01:27:08.062082,2025-11-16 19:29:56.062082,601,low,major,registration,assignee_3,performance,fakesummary,interim1
+33,2025-07-07 03:23:14.062082,2026-09-28 01:17:25.062082,447,medium,major,backend,assignee_5,regression performance ui backend,fakesummary,interim1
+34,2025-08-18 13:18:58.062082,2027-08-15 07:40:22.062082,726,low,major,ui,assignee_2,ui regression backend,fakesummary,interim1
+35,2024-04-22 16:36:00.062082,2024-07-08 10:27:03.062082,76,medium,major,auth,assignee_1,regression ui,fakesummary,interim1
+36,2024-03-01 15:37:22.062082,2024-04-06 12:18:24.062082,35,high,major,obfuscation,assignee_4,ui performance,fakesummary,interim1
+37,2024-08-07 17:02:51.062082,2026-07-08 09:44:42.062082,699,medium,major,registration,assignee_3,performance,fakesummary,interim1
+38,2025-11-04 00:26:15.062082,2026-10-07 09:03:08.062082,337,medium,minor,payments,assignee_2,backend performance ui,fakesummary,interim1
+39,2025-09-12 17:50:16.062082,2026-01-31 22:47:46.062082,141,medium,minor,infra,assignee_5,backend performance,fakesummary,interim1
+40,2025-06-23 06:35:27.062082,2026-10-25 22:55:22.062082,489,high,major,obfuscation,assignee_2,performance backend regression ui,fakesummary,interim1
+41,2025-07-31 22:29:39.062082,2027-05-17 01:47:26.062082,654,high,critical,auth,assignee_1,performance backend ui,fakesummary,interim1
+42,2025-07-20 16:03:02.062082,2026-01-13 02:58:13.062082,176,high,major,payments,assignee_4,regression backend performance ui,fakesummary,interim1
+43,2025-01-11 21:47:42.062082,2025-11-17 06:41:08.062082,309,high,blocker,infra,assignee_4,regression ui,fakesummary,interim1
+44,2024-08-13 11:02:21.062082,2025-10-06 17:58:35.062082,419,medium,major,backend,assignee_1,regression backend,fakesummary,interim1
+45,2024-03-30 00:55:07.062082,2025-05-13 18:24:51.062082,409,medium,critical,ui,assignee_3,regression performance ui backend,fakesummary,interim1
+46,2024-04-27 11:46:19.062082,2025-01-29 02:00:08.062082,276,critical,critical,registration,assignee_2,performance backend,fakesummary,interim1
+47,2025-12-10 05:59:25.062082,2027-10-15 06:42:47.062082,674,high,critical,auth,assignee_2,ui regression,fakesummary,interim1
+48,2024-06-15 08:29:59.062082,2026-04-20 09:03:49.062082,674,critical,critical,obfuscation,assignee_3,ui backend performance regression,fakesummary,interim1
+49,2025-08-25 02:41:54.062082,2027-07-29 04:11:17.062082,703,high,blocker,obfuscation,assignee_3,performance,fakesummary,interim1
+50,2025-05-06 11:59:20.062082,2025-10-02 23:50:58.062082,149,high,critical,obfuscation,assignee_3,backend performance,fakesummary,interim1
+51,2024-09-08 14:13:07.062082,2024-09-16 13:20:11.062082,7,medium,blocker,ui,assignee_3,regression,fakesummary,interim1
+52,2025-08-25 13:11:31.062082,2027-04-30 13:05:29.062082,612,medium,blocker,infra,assignee_4,regression backend,fakesummary,interim1
+53,2025-02-23 03:13:05.062082,2026-11-24 07:23:35.062082,639,high,critical,auth,assignee_3,ui,fakesummary,interim1
+54,2024-10-11 12:13:07.062082,2024-12-16 13:13:20.062082,66,high,major,obfuscation,assignee_4,performance,fakesummary,interim1
+55,2025-12-16 00:03:43.062082,2027-09-29 13:49:35.062082,652,high,major,obfuscation,assignee_5,performance regression backend,fakesummary,interim1
+56,2024-12-23 16:40:18.062082,2026-01-23 13:23:08.062082,395,medium,critical,backend,assignee_5,performance regression,fakesummary,interim1
+57,2025-11-08 10:35:49.062082,2026-11-23 02:28:52.062082,379,high,major,backend,assignee_5,performance ui,fakesummary,interim1
+58,2025-11-10 16:07:01.062082,2026-04-25 22:16:05.062082,166,medium,minor,auth,assignee_1,backend regression ui,fakesummary,interim1
+59,2025-08-07 10:31:16.062082,2027-04-23 13:20:39.062082,624,high,critical,obfuscation,assignee_3,regression,fakesummary,interim1
+60,2025-05-05 10:10:29.062082,2026-03-06 06:39:28.062082,304,critical,major,obfuscation,assignee_2,backend performance ui,fakesummary,interim1
+61,2024-01-10 11:02:24.062082,2025-06-04 14:55:47.062082,511,medium,major,auth,assignee_5,ui,fakesummary,interim1
+62,2025-03-03 17:24:52.062082,2026-02-23 18:33:44.062082,357,high,major,payments,assignee_4,regression ui,fakesummary,interim1
+63,2025-03-06 07:45:34.062082,2026-03-25 01:47:34.062082,383,high,blocker,auth,assignee_3,ui backend,fakesummary,interim1
+64,2024-07-08 10:32:32.062082,2025-09-29 03:16:56.062082,447,critical,blocker,backend,assignee_4,performance regression ui backend,fakesummary,interim1
+65,2025-06-13 16:12:14.062082,2025-09-09 21:22:39.062082,88,medium,major,infra,assignee_4,performance,fakesummary,interim1
+66,2025-02-02 08:56:49.062082,2026-04-29 16:47:00.062082,451,critical,critical,obfuscation,assignee_2,backend ui,fakesummary,interim1
+67,2025-11-15 22:49:06.062082,2025-12-15 16:20:00.062082,29,high,major,infra,assignee_4,performance regression backend ui,fakesummary,interim1
+68,2024-01-29 13:15:52.062082,2025-12-18 04:30:50.062082,688,medium,critical,ui,assignee_5,regression performance backend,fakesummary,interim1
+69,2024-02-28 08:51:56.062082,2024-05-23 09:55:30.062082,85,high,critical,obfuscation,assignee_4,backend regression performance ui,fakesummary,interim1
+70,2024-02-03 19:04:37.062082,2024-08-30 10:01:53.062082,208,high,blocker,auth,assignee_4,performance backend regression,fakesummary,interim1
+71,2024-11-13 14:40:17.062082,2025-03-13 05:27:59.062082,119,medium,minor,infra,assignee_1,performance ui,fakesummary,interim1
+72,2025-08-18 23:25:26.062082,2026-07-06 05:48:33.062082,321,medium,major,obfuscation,assignee_4,backend ui regression performance,fakesummary,interim1
+73,2025-05-30 14:34:43.062082,2026-09-26 11:53:21.062082,483,high,blocker,infra,assignee_4,regression backend,fakesummary,interim1
+74,2025-09-13 21:59:21.062082,2026-05-07 00:32:07.062082,235,medium,blocker,backend,assignee_1,regression performance backend ui,fakesummary,interim1
+75,2024-05-12 14:24:52.062082,2024-10-27 11:58:35.062082,167,critical,blocker,ui,assignee_2,regression,fakesummary,interim1
+76,2025-03-17 11:37:26.062082,2026-09-27 23:40:30.062082,559,high,critical,backend,assignee_5,regression,fakesummary,interim1
+77,2024-01-24 05:01:10.062082,2025-10-19 16:03:55.062082,634,medium,major,auth,assignee_3,performance,fakesummary,interim1
+78,2024-03-18 16:40:03.062082,2024-05-07 05:49:28.062082,49,medium,critical,ui,assignee_5,regression ui performance backend,fakesummary,interim1
+79,2024-02-06 13:03:41.062082,2025-11-29 09:35:17.062082,661,critical,critical,obfuscation,assignee_4,regression ui backend performance,fakesummary,interim1
+80,2025-02-15 19:18:50.062082,2026-08-30 05:49:15.062082,560,medium,critical,infra,assignee_5,regression backend performance ui,fakesummary,interim1
+81,2024-05-15 08:55:44.062082,2025-03-04 06:49:09.062082,292,medium,major,backend,assignee_1,ui backend regression performance,fakesummary,interim1
+82,2025-01-24 03:58:33.062082,2025-03-17 19:41:16.062082,52,high,major,auth,assignee_2,ui,fakesummary,interim1
+83,2025-04-29 04:31:12.062082,2026-10-29 11:24:13.062082,548,medium,minor,registration,assignee_5,backend regression ui performance,fakesummary,interim1
+84,2025-08-30 02:03:36.062082,2027-03-26 19:36:52.062082,573,low,major,infra,assignee_5,backend ui,fakesummary,interim1
+85,2024-02-08 23:54:21.062082,2024-08-26 15:59:40.062082,199,critical,major,ui,assignee_2,performance,fakesummary,interim1
+86,2024-03-02 07:52:18.062082,2026-01-13 02:16:25.062082,681,medium,minor,obfuscation,assignee_1,ui regression backend performance,fakesummary,interim1
+87,2024-08-31 02:22:03.062082,2025-07-03 14:07:38.062082,306,medium,blocker,payments,assignee_4,regression performance backend,fakesummary,interim1
+88,2025-12-08 04:16:39.062082,2026-06-20 06:45:14.062082,194,medium,blocker,ui,assignee_2,performance backend regression ui,fakesummary,interim1
+89,2024-12-08 16:43:30.062082,2026-09-04 21:46:33.062082,635,medium,minor,registration,assignee_5,backend,fakesummary,interim1
+90,2025-05-13 07:28:52.062082,2025-09-15 00:53:22.062082,124,high,blocker,backend,assignee_5,backend regression performance ui,fakesummary,interim1
+91,2024-06-26 19:01:07.062082,2026-01-06 00:44:29.062082,558,medium,blocker,payments,assignee_2,ui performance,fakesummary,interim1
+92,2024-02-02 22:12:36.062082,2024-11-17 04:38:12.062082,288,medium,minor,backend,assignee_4,performance backend,fakesummary,interim1
+93,2025-08-06 20:14:51.062082,2026-05-31 19:15:04.062082,297,high,blocker,registration,assignee_4,ui,fakesummary,interim1
+94,2024-02-18 05:48:37.062082,2025-11-30 12:25:34.062082,651,critical,minor,backend,assignee_1,ui,fakesummary,interim1
+95,2025-05-06 13:20:57.062082,2026-04-03 06:37:44.062082,331,medium,blocker,obfuscation,assignee_1,backend ui,fakesummary,interim1
+96,2025-04-07 17:45:03.062082,2026-05-12 20:29:34.062082,400,medium,major,payments,assignee_2,performance,fakesummary,interim1
+97,2024-09-12 02:23:28.062082,2026-01-27 07:00:11.062082,502,high,blocker,obfuscation,assignee_5,backend,fakesummary,interim1
+98,2025-06-22 21:02:16.062082,2025-11-21 23:21:31.062082,152,medium,major,payments,assignee_4,ui regression backend performance,fakesummary,interim1
+99,2024-12-28 17:13:00.062082,2025-04-21 22:37:47.062082,114,low,critical,auth,assignee_3,performance ui backend,fakesummary,interim1
+100,2025-05-30 20:29:32.062082,2026-05-20 20:23:29.062082,354,high,major,ui,assignee_2,performance ui backend regression,fakesummary,interim1
+101,2024-06-13 15:04:31.062082,2024-08-24 22:05:30.062082,72,medium,major,payments,assignee_2,regression backend performance,fakesummary,interim1
+102,2025-02-22 15:31:04.062082,2025-12-03 19:16:47.062082,284,medium,critical,obfuscation,assignee_1,regression,fakesummary,interim1
+103,2025-12-03 06:41:11.062082,2027-11-27 17:28:17.062082,724,high,major,auth,assignee_1,performance regression,fakesummary,interim1
+104,2025-03-21 05:14:37.062082,2026-03-01 09:56:00.062082,345,high,blocker,infra,assignee_4,backend performance regression ui,fakesummary,interim1
+105,2024-08-14 07:30:37.062082,2026-01-04 10:36:45.062082,508,low,major,infra,assignee_1,ui performance regression,fakesummary,interim1
+106,2024-02-10 02:09:54.062082,2025-11-08 05:43:17.062082,637,medium,critical,registration,assignee_3,regression performance,fakesummary,interim1
+107,2025-08-04 00:30:43.062082,2025-09-25 02:15:47.062082,52,medium,critical,infra,assignee_1,performance ui regression,fakesummary,interim1
+108,2024-08-15 14:09:28.062082,2025-01-15 18:45:38.062082,153,low,major,registration,assignee_3,regression ui performance,fakesummary,interim1
+109,2024-04-01 14:58:33.062082,2025-07-30 19:58:40.062082,485,high,blocker,auth,assignee_4,ui regression backend,fakesummary,interim1
+110,2024-09-27 16:38:26.062082,2025-04-10 04:57:36.062082,194,medium,major,registration,assignee_3,ui backend regression performance,fakesummary,interim1
+111,2025-03-19 22:27:18.062082,2026-01-25 20:22:02.062082,311,critical,critical,infra,assignee_3,backend,fakesummary,interim1
+112,2024-08-27 06:27:23.062082,2026-04-19 16:58:46.062082,600,critical,critical,infra,assignee_1,regression ui performance backend,fakesummary,interim1
+113,2024-09-12 03:21:24.062082,2026-07-08 12:42:39.062082,664,medium,major,backend,assignee_2,backend regression performance ui,fakesummary,interim1
+114,2025-12-12 03:23:12.062082,2027-03-27 15:24:29.062082,470,high,blocker,infra,assignee_3,ui performance regression backend,fakesummary,interim1
+115,2024-10-12 12:06:31.062082,2025-10-18 10:01:54.062082,370,medium,blocker,payments,assignee_1,backend performance,fakesummary,interim1
+116,2024-01-27 08:07:26.062082,2026-01-06 14:00:05.062082,710,critical,major,backend,assignee_1,backend performance regression,fakesummary,interim1
+117,2024-07-11 17:42:37.062082,2025-08-10 18:52:30.062082,395,medium,minor,infra,assignee_1,performance regression,fakesummary,interim1
+118,2025-08-03 17:29:18.062082,2025-08-05 17:32:23.062082,2,high,blocker,auth,assignee_3,regression backend ui performance,fakesummary,interim1
+119,2024-07-27 14:24:00.062082,2025-10-01 10:04:41.062082,430,critical,critical,backend,assignee_1,performance regression ui backend,fakesummary,interim1
+120,2025-09-07 03:33:24.062082,2027-01-26 16:00:52.062082,506,medium,minor,registration,assignee_1,ui,fakesummary,interim1
+121,2024-05-10 07:20:29.062082,2025-03-02 18:43:54.062082,296,medium,major,ui,assignee_1,backend performance,fakesummary,interim1
+122,2025-06-13 05:49:25.062082,2026-07-29 13:23:08.062082,411,low,major,backend,assignee_4,ui performance,fakesummary,interim1
+123,2025-10-14 09:43:09.062082,2027-02-11 18:53:17.062082,485,medium,major,backend,assignee_2,performance backend regression,fakesummary,interim1
+124,2024-06-05 03:51:59.062082,2024-08-02 00:50:04.062082,57,medium,minor,obfuscation,assignee_2,ui regression,fakesummary,interim1
+125,2024-09-10 04:25:01.062082,2025-12-09 20:24:40.062082,455,medium,major,infra,assignee_4,ui regression backend,fakesummary,interim1
+126,2025-11-20 11:31:49.062082,2026-06-12 11:14:03.062082,203,high,major,auth,assignee_1,performance ui,fakesummary,interim1
+127,2024-08-02 00:28:13.062082,2025-12-11 07:19:04.062082,496,critical,blocker,registration,assignee_2,regression backend ui,fakesummary,interim1
+128,2024-09-21 00:40:03.062082,2026-08-09 16:49:37.062082,687,critical,major,infra,assignee_1,performance,fakesummary,interim1
+129,2025-10-25 15:12:21.062082,2025-12-25 09:10:33.062082,60,high,minor,payments,assignee_2,backend regression ui performance,fakesummary,interim1
+130,2024-11-15 18:52:43.062082,2025-01-29 22:52:53.062082,75,high,blocker,infra,assignee_2,performance ui,fakesummary,interim1
+131,2025-01-08 04:47:18.062082,2026-12-12 17:45:41.062082,703,critical,critical,payments,assignee_5,ui performance backend,fakesummary,interim1
+132,2024-07-05 16:19:42.062082,2024-08-24 16:29:34.062082,50,high,major,registration,assignee_4,backend performance,fakesummary,interim1
+133,2024-10-17 09:14:38.062082,2025-12-17 11:54:06.062082,426,low,critical,obfuscation,assignee_5,ui backend regression,fakesummary,interim1
+134,2024-02-24 19:07:31.062082,2025-03-01 19:13:44.062082,371,medium,major,infra,assignee_4,backend,fakesummary,interim1
+135,2025-01-24 06:20:01.062082,2025-08-29 19:31:07.062082,217,medium,critical,obfuscation,assignee_5,performance ui regression,fakesummary,interim1
+136,2025-02-14 04:35:42.062082,2026-03-23 03:18:57.062082,401,high,minor,registration,assignee_5,backend ui,fakesummary,interim1
+137,2025-06-15 18:03:30.062082,2026-01-20 14:53:44.062082,218,high,major,payments,assignee_1,ui regression,fakesummary,interim1
+138,2025-05-17 03:17:34.062082,2026-06-06 14:57:53.062082,385,low,major,payments,assignee_2,performance ui backend regression,fakesummary,interim1
+139,2025-04-11 22:23:06.062082,2026-04-30 12:20:55.062082,383,medium,major,infra,assignee_4,ui,fakesummary,interim1
+140,2024-11-23 11:20:43.062082,2026-06-21 02:53:58.062082,574,medium,blocker,obfuscation,assignee_5,backend performance ui regression,fakesummary,interim1
+141,2025-02-28 11:56:04.062082,2026-04-06 21:23:46.062082,402,medium,minor,infra,assignee_1,backend performance regression ui,fakesummary,interim1
+142,2024-10-28 02:22:10.062082,2026-08-09 22:25:40.062082,650,medium,critical,infra,assignee_4,ui regression,fakesummary,interim1
+143,2024-10-31 21:03:38.062082,2026-04-23 20:18:05.062082,538,high,critical,ui,assignee_2,backend performance,fakesummary,interim1
+144,2025-03-12 20:35:42.062082,2027-01-06 00:22:23.062082,664,high,blocker,registration,assignee_5,backend performance,fakesummary,interim1
+145,2024-08-24 17:23:39.062082,2025-09-24 23:47:11.062082,396,medium,critical,infra,assignee_3,backend performance regression ui,fakesummary,interim1
+146,2024-09-29 16:59:30.062082,2026-09-04 23:48:45.062082,705,medium,major,infra,assignee_4,backend regression,fakesummary,interim1
+147,2024-11-08 04:46:30.062082,2026-05-07 05:58:21.062082,545,critical,major,obfuscation,assignee_5,performance regression,fakesummary,interim1
+148,2025-11-14 15:02:09.062082,2025-12-22 05:49:41.062082,37,high,major,ui,assignee_1,ui regression performance,fakesummary,interim1
+149,2024-10-15 08:13:50.062082,2025-09-14 05:32:26.062082,333,high,major,infra,assignee_2,ui regression performance,fakesummary,interim1
+150,2024-08-03 08:12:42.062082,2026-04-15 15:54:55.062082,620,medium,major,obfuscation,assignee_4,backend performance,fakesummary,interim1
+151,2025-09-19 15:25:46.062082,2026-06-23 16:34:33.062082,277,high,critical,obfuscation,assignee_2,performance,fakesummary,interim1
+152,2025-05-29 09:29:24.062082,2026-06-04 18:13:49.062082,371,high,major,auth,assignee_1,ui backend regression,fakesummary,interim1
+153,2024-08-18 07:26:20.062082,2026-04-07 04:13:40.062082,596,low,major,infra,assignee_2,performance ui,fakesummary,interim1
+154,2025-05-11 04:28:10.062082,2027-04-20 10:10:31.062082,709,medium,major,infra,assignee_5,backend,fakesummary,interim1
+155,2024-02-29 16:48:50.062082,2025-04-08 00:34:11.062082,403,low,major,ui,assignee_3,ui,fakesummary,interim1
+156,2024-04-26 04:40:30.062082,2026-01-01 10:23:28.062082,615,low,minor,ui,assignee_2,regression performance backend ui,fakesummary,interim1
+157,2024-02-29 13:12:35.062082,2025-10-12 09:34:56.062082,590,medium,critical,auth,assignee_5,performance backend,fakesummary,interim1
+158,2025-04-09 06:09:14.062082,2026-02-16 05:58:47.062082,312,high,critical,backend,assignee_5,performance regression,fakesummary,interim1
+159,2025-01-07 08:54:15.062082,2025-10-26 05:11:31.062082,291,high,minor,payments,assignee_5,backend ui performance regression,fakesummary,interim1
+160,2025-06-29 02:16:44.062082,2026-01-13 16:18:44.062082,198,high,blocker,ui,assignee_2,regression backend,fakesummary,interim1
+161,2025-07-30 11:10:31.062082,2027-05-28 20:11:57.062082,667,medium,major,infra,assignee_1,performance backend regression ui,fakesummary,interim1
+162,2024-02-10 10:13:12.062082,2025-02-22 01:16:57.062082,377,critical,major,payments,assignee_1,performance backend regression,fakesummary,interim1
+163,2024-11-23 09:40:39.062082,2025-06-04 14:44:15.062082,193,medium,critical,ui,assignee_3,performance backend ui regression,fakesummary,interim1
+164,2024-04-16 18:14:00.062082,2025-08-09 17:58:49.062082,479,high,critical,ui,assignee_5,regression,fakesummary,interim1
+165,2025-02-12 11:19:21.062082,2026-12-18 17:54:19.062082,674,high,critical,obfuscation,assignee_5,performance backend,fakesummary,interim1
+166,2025-05-31 16:17:40.062082,2025-08-31 03:03:06.062082,91,medium,major,infra,assignee_2,regression,fakesummary,interim1
+167,2025-11-24 18:55:40.062082,2027-08-29 14:11:15.062082,642,critical,critical,ui,assignee_3,regression ui backend performance,fakesummary,interim1
+168,2024-05-10 08:49:45.062082,2025-08-14 14:55:49.062082,461,medium,critical,registration,assignee_5,backend regression performance ui,fakesummary,interim1
+169,2024-09-26 18:44:33.062082,2026-07-11 09:16:11.062082,652,high,critical,payments,assignee_4,performance backend ui,fakesummary,interim1
+170,2025-10-17 00:40:28.062082,2027-10-04 03:04:25.062082,717,high,blocker,payments,assignee_3,performance backend ui regression,fakesummary,interim1
+171,2025-12-01 01:33:07.062082,2027-03-16 05:38:09.062082,470,high,blocker,auth,assignee_3,regression performance,fakesummary,interim1
+172,2025-03-07 15:43:17.062082,2026-02-14 13:18:47.062082,343,high,blocker,ui,assignee_4,ui regression backend,fakesummary,interim1
+173,2025-10-21 09:35:27.062082,2026-09-01 23:34:12.062082,315,medium,minor,ui,assignee_2,regression ui backend performance,fakesummary,interim1
+174,2024-03-07 23:12:28.062082,2025-06-30 14:17:10.062082,479,medium,critical,infra,assignee_2,performance,fakesummary,interim1
+175,2025-08-08 18:00:48.062082,2026-09-12 11:58:18.062082,399,high,major,auth,assignee_1,performance backend,fakesummary,interim1
+176,2024-08-14 21:13:55.062082,2024-09-25 21:20:38.062082,42,medium,critical,obfuscation,assignee_2,ui regression backend,fakesummary,interim1
+177,2025-05-07 12:57:51.062082,2026-06-13 14:34:09.062082,402,critical,major,payments,assignee_1,performance ui backend,fakesummary,interim1
+178,2025-02-02 04:44:24.062082,2027-01-18 14:05:02.062082,715,medium,critical,infra,assignee_5,backend ui performance regression,fakesummary,interim1
+179,2024-02-16 01:45:09.062082,2024-03-15 00:41:18.062082,27,medium,major,obfuscation,assignee_2,ui performance regression backend,fakesummary,interim1
+180,2025-01-08 12:15:13.062082,2025-03-18 13:24:52.062082,69,critical,critical,backend,assignee_3,performance regression,fakesummary,interim1
+181,2025-01-22 21:38:25.062082,2026-03-18 23:21:11.062082,420,medium,critical,ui,assignee_2,backend ui performance,fakesummary,interim1
+182,2025-06-06 13:41:49.062082,2026-02-12 05:36:37.062082,250,critical,blocker,registration,assignee_3,ui regression backend performance,fakesummary,interim1
+183,2024-08-05 18:02:46.062082,2025-02-06 02:00:47.062082,184,medium,major,backend,assignee_2,performance backend regression ui,fakesummary,interim1
+184,2025-02-01 13:53:49.062082,2025-10-31 10:14:48.062082,271,low,major,infra,assignee_4,ui performance backend regression,fakesummary,interim1
+185,2025-07-24 22:36:37.062082,2027-04-07 18:57:31.062082,621,high,major,backend,assignee_1,backend regression,fakesummary,interim1
+186,2024-02-22 22:54:25.062082,2024-09-20 03:55:26.062082,210,medium,major,obfuscation,assignee_3,ui,fakesummary,interim1
+187,2024-08-01 11:39:35.062082,2025-10-28 14:32:17.062082,453,high,major,registration,assignee_5,regression backend,fakesummary,interim1
+188,2024-04-25 13:59:10.062082,2026-04-15 11:31:58.062082,719,high,minor,infra,assignee_3,regression performance backend,fakesummary,interim1
+189,2024-08-12 10:20:38.062082,2026-04-04 17:37:24.062082,600,high,blocker,obfuscation,assignee_4,regression backend,fakesummary,interim1
+190,2024-12-31 15:59:16.062082,2025-10-01 08:42:46.062082,273,high,major,infra,assignee_2,regression performance ui,fakesummary,interim1
+191,2025-03-15 04:32:40.062082,2026-02-13 00:20:55.062082,334,critical,major,auth,assignee_3,ui performance backend,fakesummary,interim1
+192,2024-05-15 18:06:51.062082,2024-06-26 17:02:02.062082,41,low,minor,infra,assignee_3,regression backend ui,fakesummary,interim1
+193,2024-06-19 13:22:39.062082,2025-09-29 19:05:33.062082,467,high,critical,ui,assignee_1,performance,fakesummary,interim1
+194,2024-04-05 06:00:46.062082,2026-03-06 01:04:13.062082,699,medium,major,ui,assignee_5,performance ui,fakesummary,interim1
+195,2025-11-03 02:09:42.062082,2025-12-07 02:52:57.062082,34,high,blocker,payments,assignee_2,ui regression backend performance,fakesummary,interim1
+196,2024-01-22 13:03:25.062082,2025-05-17 22:12:57.062082,481,high,major,auth,assignee_5,regression,fakesummary,interim1
+197,2025-06-18 18:01:54.062082,2026-05-20 10:06:45.062082,335,high,critical,ui,assignee_1,regression ui,fakesummary,interim1
+198,2024-03-29 17:17:34.062082,2024-07-30 11:14:07.062082,122,high,minor,registration,assignee_4,regression ui backend performance,fakesummary,interim1
+199,2025-05-31 13:52:23.062082,2025-06-22 23:19:49.062082,22,low,blocker,backend,assignee_3,performance backend regression ui,fakesummary,interim1
+200,2025-11-02 02:29:08.062082,2027-05-18 13:21:49.062082,562,medium,critical,ui,assignee_5,ui regression backend,fakesummary,interim1
+201,2024-12-30 03:36:48.062082,2025-08-18 05:57:32.062082,231,medium,major,ui,assignee_1,performance regression backend,fakesummary,interim1
+202,2025-03-19 01:22:35.062082,2027-02-04 05:02:16.062082,687,critical,critical,registration,assignee_1,backend regression,fakesummary,interim1
+203,2025-02-27 16:07:42.062082,2026-05-15 18:32:43.062082,442,high,minor,registration,assignee_3,performance,fakesummary,interim1
+204,2025-12-03 19:00:46.062082,2027-03-18 07:28:38.062082,469,medium,critical,registration,assignee_1,regression,fakesummary,interim1
+205,2025-05-30 16:02:45.062082,2025-09-27 14:59:06.062082,119,high,major,auth,assignee_3,performance backend ui,fakesummary,interim1
+206,2024-04-24 04:52:58.062082,2025-04-12 02:32:10.062082,352,high,major,auth,assignee_4,regression performance backend,fakesummary,interim1
+207,2024-10-03 05:10:15.062082,2025-12-13 22:24:18.062082,436,medium,major,backend,assignee_3,backend,fakesummary,interim1
+208,2025-02-10 18:02:13.062082,2025-05-01 03:40:16.062082,79,medium,major,obfuscation,assignee_4,regression,fakesummary,interim1
+209,2024-01-28 10:05:58.062082,2024-11-28 12:35:09.062082,305,low,critical,auth,assignee_3,backend ui,fakesummary,interim1
+210,2024-05-17 02:51:06.062082,2024-08-21 21:56:32.062082,96,critical,blocker,backend,assignee_1,ui backend,fakesummary,interim1
+211,2025-04-21 04:30:17.062082,2027-03-26 18:58:33.062082,704,critical,minor,infra,assignee_2,performance ui backend regression,fakesummary,interim1
+212,2025-09-14 21:32:56.062082,2025-12-22 13:34:23.062082,98,critical,major,payments,assignee_4,backend regression,fakesummary,interim1
+213,2024-05-07 14:32:49.062082,2025-04-06 09:28:04.062082,333,high,major,infra,assignee_1,performance,fakesummary,interim1
+214,2025-12-16 03:04:01.062082,2027-07-02 14:19:27.062082,563,critical,critical,infra,assignee_5,ui regression,fakesummary,interim1
+215,2024-05-01 10:40:57.062082,2024-08-03 12:21:11.062082,94,medium,major,infra,assignee_4,regression,fakesummary,interim1
+216,2025-06-02 01:41:14.062082,2025-10-21 19:58:48.062082,141,high,major,auth,assignee_5,regression,fakesummary,interim1
+217,2024-11-01 10:58:10.062082,2025-03-29 18:26:50.062082,148,medium,major,infra,assignee_1,regression performance ui,fakesummary,interim1
+218,2024-11-29 12:30:06.062082,2026-10-02 13:30:48.062082,672,high,minor,registration,assignee_2,performance backend regression ui,fakesummary,interim1
+219,2025-07-22 05:45:09.062082,2027-04-28 15:56:29.062082,645,high,critical,backend,assignee_5,regression ui performance,fakesummary,interim1
+220,2025-10-25 08:27:45.062082,2026-06-18 14:19:03.062082,236,low,major,registration,assignee_2,performance,fakesummary,interim1
+221,2025-10-17 23:40:55.062082,2026-08-05 04:07:59.062082,291,medium,major,auth,assignee_5,regression performance ui backend,fakesummary,interim1
+222,2024-02-13 09:11:53.062082,2024-09-12 02:07:48.062082,211,critical,minor,obfuscation,assignee_1,regression performance ui,fakesummary,interim1
+223,2024-07-27 14:28:42.062082,2025-02-15 18:54:00.062082,203,critical,blocker,registration,assignee_2,ui,fakesummary,interim1
+224,2025-05-09 20:41:32.062082,2026-03-25 16:43:09.062082,319,medium,blocker,backend,assignee_5,backend,fakesummary,interim1
+225,2025-12-27 23:47:43.062082,2027-11-15 07:27:16.062082,687,medium,critical,auth,assignee_5,ui backend,fakesummary,interim1
+226,2025-12-22 22:02:01.062082,2027-08-11 18:21:06.062082,596,critical,critical,obfuscation,assignee_3,regression performance,fakesummary,interim1
+227,2024-03-12 05:30:41.062082,2025-02-23 09:20:22.062082,348,high,blocker,infra,assignee_3,backend regression ui,fakesummary,interim1
+228,2025-05-05 06:04:05.062082,2025-08-19 06:27:12.062082,106,high,minor,obfuscation,assignee_2,ui regression,fakesummary,interim1
+229,2025-11-16 20:59:51.062082,2026-04-30 02:32:09.062082,164,high,major,ui,assignee_5,backend regression performance ui,fakesummary,interim1
+230,2025-05-03 12:12:43.062082,2026-06-18 14:54:33.062082,411,critical,critical,auth,assignee_4,backend ui regression performance,fakesummary,interim1
+231,2025-11-29 10:12:49.062082,2026-04-09 06:15:56.062082,130,medium,critical,ui,assignee_3,performance,fakesummary,interim1
+232,2024-07-19 01:27:43.062082,2025-06-24 02:30:19.062082,340,medium,critical,ui,assignee_1,regression,fakesummary,interim1
+233,2024-07-04 05:16:06.062082,2026-01-24 05:35:29.062082,569,medium,minor,infra,assignee_2,regression backend ui performance,fakesummary,interim1
+234,2024-08-23 22:51:19.062082,2025-02-11 14:45:50.062082,171,low,minor,obfuscation,assignee_3,regression performance ui backend,fakesummary,interim1
+235,2025-08-27 15:09:18.062082,2027-01-25 07:36:49.062082,515,medium,critical,payments,assignee_4,performance backend ui regression,fakesummary,interim1
+236,2024-04-29 04:28:24.062082,2025-08-28 13:55:35.062082,486,medium,critical,registration,assignee_5,backend performance ui regression,fakesummary,interim1
+237,2024-01-26 14:08:28.062082,2025-11-06 06:18:18.062082,649,low,blocker,ui,assignee_3,ui,fakesummary,interim1
+238,2024-01-11 09:18:55.062082,2025-04-12 13:42:53.062082,457,medium,major,ui,assignee_3,regression ui,fakesummary,interim1
+239,2024-03-09 06:04:29.062082,2024-05-07 13:58:44.062082,59,critical,critical,obfuscation,assignee_2,regression,fakesummary,interim1
+240,2024-05-01 08:19:39.062082,2024-07-31 23:13:16.062082,91,medium,critical,ui,assignee_5,performance ui backend,fakesummary,interim1
+241,2025-08-12 05:55:48.062082,2027-08-11 13:20:04.062082,729,critical,critical,auth,assignee_1,performance ui backend,fakesummary,interim1
+242,2025-03-30 00:49:18.062082,2025-08-07 01:26:53.062082,130,medium,major,auth,assignee_4,regression ui performance backend,fakesummary,interim1
+243,2025-03-06 16:15:58.062082,2026-12-22 18:32:43.062082,656,low,major,payments,assignee_5,ui,fakesummary,interim1
+244,2025-11-17 04:30:15.062082,2026-10-05 09:59:30.062082,322,medium,critical,registration,assignee_2,ui backend performance regression,fakesummary,interim1
+245,2024-07-22 15:08:10.062082,2025-06-04 13:19:24.062082,316,critical,major,auth,assignee_3,ui regression backend,fakesummary,interim1
+246,2025-01-05 14:28:28.062082,2026-12-27 17:38:01.062082,721,low,major,ui,assignee_5,performance ui regression,fakesummary,interim1
+247,2025-01-30 03:15:56.062082,2026-07-05 20:04:28.062082,521,high,major,registration,assignee_5,ui,fakesummary,interim1
+248,2025-07-29 09:55:04.062082,2025-12-06 14:15:57.062082,130,high,major,backend,assignee_1,backend regression,fakesummary,interim1
+249,2025-09-21 09:43:41.062082,2027-09-13 00:06:06.062082,721,medium,major,obfuscation,assignee_5,performance,fakesummary,interim1
+250,2024-12-03 04:13:30.062082,2026-01-17 01:31:26.062082,409,high,major,obfuscation,assignee_1,regression ui performance,fakesummary,interim1
+251,2025-11-22 19:31:26.062082,2026-11-25 07:16:40.062082,367,medium,minor,ui,assignee_3,ui regression,fakesummary,interim1
+252,2025-08-06 10:47:22.062082,2025-10-21 18:27:58.062082,76,medium,major,obfuscation,assignee_5,ui backend,fakesummary,interim1
+253,2025-06-13 15:43:24.062082,2026-05-24 22:38:10.062082,345,medium,major,backend,assignee_1,backend regression ui performance,fakesummary,interim1
+254,2024-02-15 04:35:06.062082,2025-03-08 13:49:40.062082,387,critical,major,backend,assignee_5,performance,fakesummary,interim1
+255,2024-10-18 01:52:23.062082,2025-11-13 15:05:49.062082,391,medium,critical,auth,assignee_2,ui,fakesummary,interim1
+256,2025-01-24 22:04:08.062082,2025-12-17 08:17:50.062082,326,high,major,auth,assignee_5,backend regression performance ui,fakesummary,interim1
+257,2025-05-31 17:57:49.062082,2026-03-17 23:06:41.062082,290,low,minor,ui,assignee_4,regression backend ui performance,fakesummary,interim1
+258,2026-01-02 06:10:49.062082,2027-06-07 16:59:14.062082,521,low,major,obfuscation,assignee_4,backend performance ui regression,fakesummary,interim1
+259,2025-12-28 12:34:26.062082,2027-08-16 12:45:01.062082,596,medium,blocker,ui,assignee_1,ui performance,fakesummary,interim1
+260,2025-06-15 14:38:26.062082,2026-05-04 14:08:34.062082,322,high,major,registration,assignee_5,backend regression,fakesummary,interim1
+261,2025-05-18 16:33:10.062082,2027-03-01 20:00:04.062082,652,high,major,registration,assignee_4,performance backend regression ui,fakesummary,interim1
+262,2024-12-03 05:36:06.062082,2026-12-02 19:13:28.062082,729,critical,major,registration,assignee_3,backend,fakesummary,interim1
+263,2025-07-25 01:37:12.062082,2027-05-23 23:47:07.062082,667,medium,major,ui,assignee_3,performance ui regression backend,fakesummary,interim1
+264,2024-06-11 20:25:26.062082,2024-08-02 13:03:43.062082,51,medium,major,ui,assignee_2,regression performance backend,fakesummary,interim1
+265,2024-07-28 07:35:29.062082,2025-08-17 19:34:59.062082,385,critical,major,auth,assignee_5,backend,fakesummary,interim1
+266,2025-04-10 16:41:12.062082,2025-11-19 22:57:14.062082,223,medium,critical,ui,assignee_4,regression performance,fakesummary,interim1
+267,2024-08-10 14:13:01.062082,2026-04-30 18:36:28.062082,628,critical,critical,auth,assignee_5,regression performance ui backend,fakesummary,interim1
+268,2025-04-01 22:23:31.062082,2025-07-12 02:04:55.062082,101,medium,blocker,infra,assignee_1,regression,fakesummary,interim1
+269,2024-11-16 22:18:37.062082,2026-09-16 18:12:38.062082,668,high,major,ui,assignee_1,ui regression performance,fakesummary,interim1
+270,2025-02-13 19:48:05.062082,2026-04-22 22:12:08.062082,433,critical,critical,ui,assignee_4,ui regression,fakesummary,interim1
+271,2025-10-18 18:20:19.062082,2025-12-20 14:27:27.062082,62,critical,critical,payments,assignee_3,regression performance ui,fakesummary,interim1
+272,2025-09-08 17:07:08.062082,2026-08-29 02:12:20.062082,354,medium,blocker,registration,assignee_2,regression backend,fakesummary,interim1
+273,2025-02-05 04:57:02.062082,2025-07-22 13:07:57.062082,167,high,critical,auth,assignee_1,performance regression ui,fakesummary,interim1
+274,2025-10-08 14:12:06.062082,2026-10-28 09:52:28.062082,384,medium,blocker,infra,assignee_3,regression ui performance,fakesummary,interim1
+275,2025-10-26 08:26:30.062082,2026-11-30 14:14:11.062082,400,high,major,backend,assignee_3,backend performance,fakesummary,interim1
+276,2024-10-30 17:27:28.062082,2025-07-01 00:45:48.062082,243,critical,critical,ui,assignee_5,performance regression backend,fakesummary,interim1
+277,2025-04-13 13:14:24.062082,2025-09-12 13:15:21.062082,152,high,critical,registration,assignee_1,regression performance ui backend,fakesummary,interim1
+278,2024-09-12 22:16:08.062082,2026-04-11 07:02:20.062082,575,medium,major,infra,assignee_3,regression performance,fakesummary,interim1
+279,2025-10-03 16:43:32.062082,2026-03-02 07:01:36.062082,149,medium,minor,auth,assignee_3,backend,fakesummary,interim1
+280,2024-07-30 03:03:30.062082,2024-10-28 02:37:32.062082,89,high,major,ui,assignee_4,performance regression ui,fakesummary,interim1
+281,2025-02-22 16:53:05.062082,2025-12-30 04:48:41.062082,310,low,major,payments,assignee_3,ui backend,fakesummary,interim1
+282,2025-06-25 03:35:08.062082,2025-12-21 19:43:23.062082,179,medium,blocker,auth,assignee_4,backend,fakesummary,interim1
+283,2024-06-06 19:38:56.062082,2025-07-19 00:30:53.062082,407,medium,critical,auth,assignee_4,backend,fakesummary,interim1
+284,2024-08-05 12:09:27.062082,2025-04-26 10:23:53.062082,263,high,minor,backend,assignee_3,ui regression backend performance,fakesummary,interim1
+285,2024-02-05 13:45:33.062082,2024-02-16 14:53:08.062082,11,high,major,obfuscation,assignee_4,performance regression backend ui,fakesummary,interim1
+286,2024-11-03 23:09:06.062082,2026-02-16 21:10:50.062082,469,critical,major,ui,assignee_2,regression ui backend,fakesummary,interim1
+287,2024-01-14 13:36:58.062082,2025-03-21 14:16:58.062082,432,high,major,infra,assignee_2,performance,fakesummary,interim1
+288,2025-10-02 09:33:24.062082,2027-04-18 07:14:35.062082,562,medium,blocker,payments,assignee_2,ui regression performance,fakesummary,interim1
+289,2025-06-21 02:27:21.062082,2027-01-27 06:40:38.062082,585,high,major,registration,assignee_4,ui,fakesummary,interim1
+290,2024-05-04 05:03:32.062082,2024-09-16 12:26:00.062082,135,high,minor,backend,assignee_3,backend ui performance,fakesummary,interim1
+291,2024-11-14 16:23:28.062082,2026-06-29 01:25:46.062082,591,high,major,obfuscation,assignee_5,regression,fakesummary,interim1
+292,2024-05-06 11:06:00.062082,2025-11-16 15:47:20.062082,559,critical,major,auth,assignee_5,backend ui,fakesummary,interim1
+293,2025-05-09 01:03:10.062082,2026-11-20 07:21:20.062082,560,low,blocker,auth,assignee_4,performance,fakesummary,interim1
+294,2025-04-22 02:43:15.062082,2026-07-13 19:46:59.062082,447,high,critical,obfuscation,assignee_3,performance regression backend,fakesummary,interim1
+295,2024-07-21 10:52:06.062082,2025-08-03 11:16:54.062082,378,high,major,auth,assignee_1,backend regression ui performance,fakesummary,interim1
+296,2026-01-05 21:12:23.062082,2026-12-01 17:43:29.062082,329,critical,blocker,infra,assignee_4,backend ui,fakesummary,interim1
+297,2025-11-15 15:19:49.062082,2027-09-26 23:36:17.062082,680,medium,major,obfuscation,assignee_1,backend,fakesummary,interim1
+298,2025-02-25 03:08:42.062082,2026-02-21 03:54:59.062082,361,high,major,infra,assignee_5,performance backend ui,fakesummary,interim1
+299,2024-02-21 04:52:03.062082,2024-09-20 18:15:21.062082,212,medium,blocker,auth,assignee_2,ui,fakesummary,interim1
+300,2025-05-29 15:12:25.062082,2027-01-11 23:39:22.062082,592,high,minor,backend,assignee_3,performance regression backend ui,fakesummary,interim1
+301,2025-11-13 14:12:04.062082,2026-07-19 10:19:10.062082,247,high,critical,registration,assignee_3,backend regression ui performance,fakesummary,interim1
+302,2025-06-07 07:49:11.062082,2027-03-21 00:16:17.062082,651,high,critical,registration,assignee_3,backend regression performance,fakesummary,interim1
+303,2024-01-28 01:15:11.062082,2025-11-19 17:08:51.062082,661,high,major,payments,assignee_3,performance,fakesummary,interim1
+304,2024-10-05 20:18:58.062082,2026-05-19 02:56:09.062082,590,high,blocker,obfuscation,assignee_3,regression,fakesummary,interim1
+305,2024-06-14 14:44:52.062082,2025-09-22 03:49:04.062082,464,medium,major,obfuscation,assignee_4,backend regression ui,fakesummary,interim1
+306,2024-04-28 12:37:50.062082,2025-10-02 20:56:20.062082,522,medium,blocker,registration,assignee_2,ui performance backend,fakesummary,interim1
+307,2025-04-09 14:45:22.062082,2025-08-01 07:36:56.062082,113,low,critical,obfuscation,assignee_2,backend performance ui,fakesummary,interim1
+308,2024-09-28 07:47:58.062082,2025-10-10 04:03:11.062082,376,high,major,infra,assignee_4,performance,fakesummary,interim1
+309,2024-01-09 01:06:03.062082,2024-01-20 05:59:48.062082,11,high,blocker,infra,assignee_2,backend ui,fakesummary,interim1
+310,2025-04-25 04:48:13.062082,2025-06-25 15:07:39.062082,61,high,major,registration,assignee_4,performance backend regression,fakesummary,interim1
+311,2024-09-14 02:02:55.062082,2024-12-10 21:45:10.062082,87,medium,critical,payments,assignee_1,ui,fakesummary,interim1
+312,2025-12-10 04:09:09.062082,2026-10-21 17:06:19.062082,315,medium,blocker,backend,assignee_2,backend regression ui performance,fakesummary,interim1
+313,2024-03-27 21:53:43.062082,2024-06-01 19:21:09.062082,65,high,major,registration,assignee_4,backend,fakesummary,interim1
+314,2024-08-26 21:59:04.062082,2025-08-01 23:04:08.062082,340,high,major,infra,assignee_2,regression ui performance backend,fakesummary,interim1
+315,2024-10-31 15:39:00.062082,2026-01-01 23:51:30.062082,427,critical,major,obfuscation,assignee_4,regression performance ui backend,fakesummary,interim1
+316,2024-11-07 16:51:05.062082,2026-10-04 16:35:39.062082,695,medium,major,payments,assignee_5,performance regression,fakesummary,interim1
+317,2025-03-07 22:00:53.062082,2025-10-29 03:33:52.062082,235,critical,critical,payments,assignee_1,regression backend ui performance,fakesummary,interim1
+318,2024-03-24 19:06:51.062082,2024-12-22 02:08:07.062082,272,critical,major,auth,assignee_4,backend regression performance ui,fakesummary,interim1
+319,2024-11-26 10:02:32.062082,2025-05-22 02:47:28.062082,176,low,minor,registration,assignee_2,performance backend,fakesummary,interim1
+320,2024-05-09 04:43:48.062082,2026-04-25 10:23:26.062082,716,high,blocker,backend,assignee_5,performance,fakesummary,interim1
+321,2025-06-02 15:35:49.062082,2027-05-07 17:12:56.062082,704,high,blocker,infra,assignee_2,ui backend regression,fakesummary,interim1
+322,2025-01-21 02:19:38.062082,2026-10-12 19:05:23.062082,629,low,blocker,obfuscation,assignee_4,ui,fakesummary,interim1
+323,2024-02-03 19:01:48.062082,2024-02-20 05:06:20.062082,16,low,critical,infra,assignee_5,regression performance backend,fakesummary,interim1
+324,2025-10-30 00:04:56.062082,2026-04-27 09:21:11.062082,179,low,major,ui,assignee_4,backend regression performance ui,fakesummary,interim1
+325,2024-05-14 16:01:52.062082,2026-03-26 09:44:13.062082,680,low,major,payments,assignee_2,backend,fakesummary,interim1
+326,2024-08-16 14:38:12.062082,2026-01-18 12:40:56.062082,519,medium,critical,backend,assignee_3,performance regression ui,fakesummary,interim1
+327,2025-01-22 17:04:27.062082,2026-06-17 21:30:21.062082,511,low,major,registration,assignee_1,ui regression performance,fakesummary,interim1
+328,2025-05-07 11:26:56.062082,2026-06-29 17:58:58.062082,418,critical,major,obfuscation,assignee_3,regression performance ui backend,fakesummary,interim1
+329,2025-08-29 02:03:36.062082,2026-05-05 20:45:06.062082,249,critical,blocker,ui,assignee_1,performance backend,fakesummary,interim1
+330,2024-08-26 01:51:02.062082,2026-07-02 15:35:10.062082,675,medium,major,ui,assignee_5,performance regression,fakesummary,interim1
+331,2025-03-01 11:41:25.062082,2025-06-08 00:34:37.062082,98,high,blocker,backend,assignee_1,ui regression backend performance,fakesummary,interim1
+332,2024-02-23 21:18:54.062082,2025-11-21 16:23:50.062082,636,medium,blocker,infra,assignee_4,backend regression,fakesummary,interim1
+333,2024-07-09 20:32:16.062082,2026-04-06 02:58:56.062082,635,critical,major,payments,assignee_2,performance ui regression backend,fakesummary,interim1
+334,2024-02-11 19:01:31.062082,2025-07-08 17:08:16.062082,512,high,critical,backend,assignee_1,performance,fakesummary,interim1
+335,2025-04-20 17:58:06.062082,2027-03-23 08:40:30.062082,701,high,major,ui,assignee_3,backend performance regression ui,fakesummary,interim1
+336,2024-08-10 04:10:48.062082,2024-12-21 23:01:07.062082,133,critical,major,registration,assignee_1,backend,fakesummary,interim1
+337,2025-11-27 04:28:04.062082,2026-01-13 12:03:23.062082,47,medium,critical,ui,assignee_1,regression,fakesummary,interim1
+338,2025-06-01 15:34:50.062082,2025-12-16 00:26:59.062082,197,high,major,obfuscation,assignee_4,regression,fakesummary,interim1
+339,2025-11-20 06:49:29.062082,2027-04-17 20:24:02.062082,513,medium,minor,payments,assignee_4,regression performance backend,fakesummary,interim1
+340,2024-09-14 20:18:47.062082,2026-01-25 00:00:15.062082,497,medium,major,infra,assignee_4,regression ui backend performance,fakesummary,interim1
+341,2025-06-10 19:02:29.062082,2026-04-16 09:00:22.062082,309,high,critical,registration,assignee_5,performance ui regression,fakesummary,interim1
+342,2024-06-08 04:22:14.062082,2026-01-13 23:45:46.062082,584,medium,major,auth,assignee_1,backend regression,fakesummary,interim1
+343,2025-01-16 19:31:41.062082,2026-10-11 02:29:46.062082,632,high,major,registration,assignee_1,regression ui performance backend,fakesummary,interim1
+344,2024-07-06 11:57:51.062082,2024-10-06 18:08:39.062082,92,high,major,backend,assignee_4,backend regression ui performance,fakesummary,interim1
+345,2024-11-22 03:15:14.062082,2025-10-13 20:56:57.062082,325,critical,major,obfuscation,assignee_5,regression backend ui performance,fakesummary,interim1
+346,2024-02-24 18:00:26.062082,2025-01-24 18:26:17.062082,335,low,critical,payments,assignee_5,ui regression,fakesummary,interim1
+347,2025-12-13 00:56:31.062082,2026-05-03 00:18:18.062082,140,high,major,registration,assignee_4,backend performance regression,fakesummary,interim1
+348,2024-12-23 12:58:54.062082,2026-02-09 18:41:56.062082,413,critical,blocker,infra,assignee_3,backend ui regression,fakesummary,interim1
+349,2024-01-12 02:56:34.062082,2025-09-09 17:42:13.062082,606,high,major,backend,assignee_3,performance ui,fakesummary,interim1
+350,2025-04-19 14:07:52.062082,2026-08-13 05:05:55.062082,480,high,blocker,ui,assignee_3,backend regression performance ui,fakesummary,interim1
+351,2025-10-05 13:09:40.062082,2026-01-04 04:18:47.062082,90,medium,critical,infra,assignee_4,backend regression ui performance,fakesummary,interim1
+352,2024-12-26 19:59:13.062082,2026-09-14 17:41:20.062082,626,medium,minor,payments,assignee_2,ui regression performance backend,fakesummary,interim1
+353,2025-09-05 19:12:23.062082,2025-12-19 17:38:56.062082,104,medium,blocker,auth,assignee_1,backend,fakesummary,interim1
+354,2024-06-04 10:09:09.062082,2025-08-07 04:06:58.062082,428,high,blocker,payments,assignee_2,backend performance,fakesummary,interim1
+355,2024-02-05 06:31:56.062082,2025-10-27 04:27:12.062082,629,high,major,registration,assignee_2,performance backend,fakesummary,interim1
+356,2024-10-16 20:17:07.062082,2024-12-19 23:25:59.062082,64,medium,major,obfuscation,assignee_3,regression backend ui performance,fakesummary,interim1
+357,2024-03-29 02:46:52.062082,2025-01-03 15:35:15.062082,280,medium,blocker,payments,assignee_5,backend ui,fakesummary,interim1
+358,2025-04-09 12:31:53.062082,2025-04-18 17:39:31.062082,9,high,major,auth,assignee_5,regression ui,fakesummary,interim1
+359,2025-06-27 08:16:54.062082,2026-03-02 22:23:00.062082,248,high,critical,ui,assignee_1,backend regression,fakesummary,interim1
+360,2024-06-06 20:54:38.062082,2025-12-11 00:19:56.062082,552,low,critical,infra,assignee_5,backend ui,fakesummary,interim1
+361,2024-01-27 07:06:05.062082,2025-01-09 20:21:04.062082,348,high,blocker,backend,assignee_3,performance ui,fakesummary,interim1
+362,2025-02-22 01:16:25.062082,2027-01-12 12:50:15.062082,689,medium,major,infra,assignee_1,regression ui,fakesummary,interim1
+363,2025-04-03 07:56:18.062082,2025-12-28 07:54:03.062082,268,medium,major,registration,assignee_2,ui,fakesummary,interim1
+364,2024-08-14 03:10:48.062082,2025-10-27 05:26:17.062082,439,medium,minor,registration,assignee_2,regression backend ui,fakesummary,interim1
+365,2024-04-17 00:16:00.062082,2024-10-14 09:02:56.062082,180,medium,critical,auth,assignee_1,backend,fakesummary,interim1
+366,2025-01-05 23:54:42.062082,2025-03-10 09:34:38.062082,63,low,major,registration,assignee_5,ui regression,fakesummary,interim1
+367,2024-05-12 05:05:38.062082,2026-02-08 14:20:52.062082,637,high,critical,backend,assignee_3,regression ui,fakesummary,interim1
+368,2025-07-17 09:00:36.062082,2027-05-22 04:30:02.062082,673,medium,critical,payments,assignee_5,ui performance backend,fakesummary,interim1
+369,2025-08-31 21:56:12.062082,2026-07-14 03:34:57.062082,316,medium,major,auth,assignee_5,ui,fakesummary,interim1
+370,2025-09-18 22:35:37.062082,2025-12-17 01:33:48.062082,89,medium,critical,registration,assignee_4,performance regression,fakesummary,interim1
+371,2024-08-12 06:18:41.062082,2025-03-06 22:33:25.062082,206,high,critical,registration,assignee_1,ui,fakesummary,interim1
+372,2024-09-07 09:37:56.062082,2025-11-21 14:12:46.062082,440,low,blocker,obfuscation,assignee_3,ui backend,fakesummary,interim1
+373,2024-06-14 09:24:06.062082,2026-01-07 19:14:20.062082,572,critical,critical,ui,assignee_2,regression ui performance backend,fakesummary,interim1
+374,2024-05-11 12:22:07.062082,2025-07-28 08:54:42.062082,442,medium,blocker,infra,assignee_5,performance ui regression backend,fakesummary,interim1
+375,2025-09-15 00:28:30.062082,2027-07-14 07:43:08.062082,667,medium,major,payments,assignee_3,ui,fakesummary,interim1
+376,2025-05-28 13:37:49.062082,2026-05-25 19:35:24.062082,362,low,critical,backend,assignee_4,performance,fakesummary,interim1
+377,2025-06-02 23:34:58.062082,2027-01-01 07:04:34.062082,577,low,critical,auth,assignee_2,performance regression,fakesummary,interim1
+378,2025-12-30 04:12:19.062082,2027-06-30 21:42:53.062082,547,medium,major,registration,assignee_1,regression performance,fakesummary,interim1
+379,2025-05-28 10:23:28.062082,2025-11-01 23:15:02.062082,157,critical,critical,registration,assignee_4,backend regression,fakesummary,interim1
+380,2025-03-19 07:25:35.062082,2025-05-05 06:56:23.062082,46,medium,blocker,obfuscation,assignee_5,backend ui,fakesummary,interim1
+381,2024-07-11 15:14:53.062082,2024-10-07 19:38:29.062082,88,critical,blocker,auth,assignee_1,ui,fakesummary,interim1
+382,2024-06-09 13:17:26.062082,2024-08-14 09:33:11.062082,65,high,major,ui,assignee_4,regression performance,fakesummary,interim1
+383,2024-09-22 16:29:28.062082,2026-02-21 01:12:02.062082,516,medium,major,registration,assignee_4,regression backend,fakesummary,interim1
+384,2025-03-18 02:54:08.062082,2026-04-27 06:12:35.062082,405,critical,critical,infra,assignee_1,performance regression ui,fakesummary,interim1
+385,2026-01-06 21:55:56.062082,2026-01-14 12:24:16.062082,7,medium,major,obfuscation,assignee_4,ui backend,fakesummary,interim1
+386,2025-05-28 15:40:03.062082,2026-07-17 06:44:18.062082,414,medium,major,auth,assignee_1,ui regression,fakesummary,interim1
+387,2025-06-07 06:19:23.062082,2027-03-16 11:06:56.062082,647,critical,major,ui,assignee_2,performance,fakesummary,interim1
+388,2025-01-16 02:54:30.062082,2026-06-29 22:43:28.062082,529,medium,critical,backend,assignee_1,regression backend ui performance,fakesummary,interim1
+389,2025-09-05 00:50:39.062082,2027-04-09 03:00:39.062082,581,medium,major,registration,assignee_1,backend regression,fakesummary,interim1
+390,2025-02-28 18:15:17.062082,2026-01-22 18:33:39.062082,328,high,critical,obfuscation,assignee_2,backend,fakesummary,interim1
+391,2025-12-24 00:38:01.062082,2026-10-17 15:46:51.062082,297,medium,major,ui,assignee_3,ui regression performance,fakesummary,interim1
+392,2024-01-21 20:58:58.062082,2025-02-22 14:39:02.062082,397,critical,critical,ui,assignee_1,performance backend regression ui,fakesummary,interim1
+393,2024-10-15 01:32:14.062082,2026-05-05 12:20:28.062082,567,critical,major,registration,assignee_1,regression,fakesummary,interim1
+394,2025-01-20 08:16:46.062082,2025-03-15 23:53:46.062082,54,medium,critical,registration,assignee_5,performance,fakesummary,interim1
+395,2024-09-03 19:34:53.062082,2026-08-10 06:12:06.062082,705,medium,major,auth,assignee_1,regression backend,fakesummary,interim1
+396,2025-01-01 23:35:33.062082,2025-08-24 13:17:02.062082,234,critical,blocker,backend,assignee_3,performance backend ui regression,fakesummary,interim1
+397,2025-11-07 08:43:47.062082,2026-01-17 17:46:27.062082,71,high,major,obfuscation,assignee_4,performance,fakesummary,interim1
+398,2024-08-06 11:34:13.062082,2025-01-04 06:57:07.062082,150,medium,critical,ui,assignee_4,regression,fakesummary,interim1
+399,2024-08-01 17:51:58.062082,2025-11-14 13:45:58.062082,469,medium,critical,auth,assignee_4,regression performance backend,fakesummary,interim1
+400,2024-04-04 22:19:50.062082,2026-01-18 20:44:21.062082,653,high,blocker,ui,assignee_5,regression backend,fakesummary,interim1
+401,2025-04-26 13:24:35.062082,2026-10-23 13:13:30.062082,544,medium,major,auth,assignee_1,ui performance regression,fakesummary,interim1
+402,2025-02-13 14:04:16.062082,2026-02-23 17:55:21.062082,375,medium,blocker,auth,assignee_1,regression performance,fakesummary,interim1
+403,2025-06-29 04:34:04.062082,2026-08-22 15:49:58.062082,419,high,critical,auth,assignee_3,backend performance,fakesummary,interim1
+404,2024-05-22 02:02:45.062082,2026-03-08 21:13:33.062082,655,medium,critical,registration,assignee_2,ui performance backend,fakesummary,interim1
+405,2024-02-02 10:33:41.062082,2024-08-18 17:34:14.062082,198,medium,major,payments,assignee_2,regression ui performance backend,fakesummary,interim1
+406,2024-01-10 00:20:43.062082,2024-09-25 07:27:12.062082,259,medium,minor,auth,assignee_1,backend ui regression,fakesummary,interim1
+407,2024-11-17 18:32:06.062082,2025-06-01 21:41:58.062082,196,medium,critical,payments,assignee_5,regression ui backend performance,fakesummary,interim1
+408,2025-09-20 23:56:15.062082,2027-04-06 11:36:11.062082,562,high,blocker,obfuscation,assignee_2,regression performance,fakesummary,interim1
+409,2024-04-17 22:10:02.062082,2024-06-05 21:46:36.062082,48,critical,blocker,infra,assignee_4,backend regression ui,fakesummary,interim1
+410,2025-01-27 12:45:12.062082,2026-03-31 16:36:37.062082,428,critical,major,obfuscation,assignee_3,backend performance ui regression,fakesummary,interim1
+411,2025-10-29 13:54:32.062082,2027-04-18 07:49:53.062082,535,high,minor,auth,assignee_3,regression performance ui,fakesummary,interim1
+412,2024-05-02 01:08:51.062082,2024-12-11 03:25:15.062082,223,critical,critical,obfuscation,assignee_4,performance backend regression,fakesummary,interim1
+413,2024-12-26 06:42:15.062082,2026-07-09 05:54:34.062082,559,medium,blocker,payments,assignee_4,ui regression backend performance,fakesummary,interim1
+414,2025-09-15 09:09:09.062082,2026-01-13 05:13:02.062082,119,high,blocker,payments,assignee_2,backend,fakesummary,interim1
+415,2024-05-25 01:46:26.062082,2025-06-13 05:39:06.062082,384,medium,major,backend,assignee_5,performance regression,fakesummary,interim1
+416,2025-03-28 15:33:20.062082,2026-06-16 03:42:52.062082,444,high,blocker,infra,assignee_4,ui backend performance regression,fakesummary,interim1
+417,2024-10-23 20:27:14.062082,2025-03-05 21:08:52.062082,133,high,major,ui,assignee_4,backend,fakesummary,interim1
+418,2025-11-08 01:43:04.062082,2026-11-17 09:26:37.062082,374,critical,critical,infra,assignee_3,regression backend,fakesummary,interim1
+419,2025-11-21 10:37:49.062082,2026-07-02 05:02:33.062082,222,critical,critical,backend,assignee_5,regression,fakesummary,interim1
+420,2025-11-04 10:17:32.062082,2026-11-26 22:00:08.062082,387,critical,blocker,payments,assignee_3,ui,fakesummary,interim1
+421,2025-06-05 01:41:04.062082,2027-04-02 23:25:27.062082,666,medium,critical,payments,assignee_2,ui regression performance,fakesummary,interim1
+422,2025-01-17 21:11:43.062082,2025-04-29 02:17:07.062082,101,high,blocker,registration,assignee_1,backend,fakesummary,interim1
+423,2025-11-03 09:23:36.062082,2027-09-07 13:16:53.062082,673,low,critical,registration,assignee_1,ui backend regression,fakesummary,interim1
+424,2025-03-27 10:42:34.062082,2026-11-01 09:41:59.062082,583,medium,critical,backend,assignee_5,ui performance regression,fakesummary,interim1
+425,2024-03-24 09:30:24.062082,2025-08-15 06:50:47.062082,508,critical,major,registration,assignee_5,ui performance regression backend,fakesummary,interim1
+426,2024-02-03 21:43:30.062082,2025-07-18 17:25:47.062082,530,critical,major,infra,assignee_2,regression performance backend,fakesummary,interim1
+427,2024-06-05 15:29:49.062082,2025-01-18 03:50:26.062082,226,high,critical,obfuscation,assignee_1,performance ui regression backend,fakesummary,interim1
+428,2024-04-03 19:11:39.062082,2025-08-03 09:48:56.062082,486,medium,major,registration,assignee_1,performance regression backend,fakesummary,interim1
+429,2025-02-26 02:37:37.062082,2026-11-24 08:18:09.062082,636,high,critical,auth,assignee_1,backend,fakesummary,interim1
+430,2025-10-14 09:20:37.062082,2027-03-16 06:45:28.062082,517,medium,critical,infra,assignee_5,performance regression backend,fakesummary,interim1
+431,2024-02-10 21:23:31.062082,2025-01-01 18:34:12.062082,325,critical,minor,backend,assignee_2,regression,fakesummary,interim1
+432,2024-10-21 23:31:39.062082,2025-12-13 11:06:29.062082,417,high,critical,auth,assignee_4,performance,fakesummary,interim1
+433,2024-03-10 17:15:36.062082,2025-01-06 08:31:13.062082,301,high,major,ui,assignee_5,performance,fakesummary,interim1
+434,2024-07-03 17:49:50.062082,2025-02-11 18:38:09.062082,223,critical,critical,backend,assignee_4,backend performance,fakesummary,interim1
+435,2025-01-02 22:27:53.062082,2026-06-07 01:58:43.062082,520,medium,critical,payments,assignee_5,backend,fakesummary,interim1
+436,2025-06-23 19:53:12.062082,2027-02-08 17:28:02.062082,594,medium,critical,obfuscation,assignee_4,performance,fakesummary,interim1
+437,2024-11-15 20:37:27.062082,2026-03-11 08:31:49.062082,480,high,major,obfuscation,assignee_1,regression ui performance backend,fakesummary,interim1
+438,2025-09-18 22:31:33.062082,2026-11-15 16:28:37.062082,422,medium,blocker,ui,assignee_4,backend,fakesummary,interim1
+439,2025-01-24 14:44:32.062082,2025-01-28 20:30:02.062082,4,high,critical,payments,assignee_3,backend,fakesummary,interim1
+440,2025-01-02 18:05:45.062082,2026-11-07 10:32:23.062082,673,high,minor,obfuscation,assignee_1,performance regression,fakesummary,interim1
+441,2024-11-17 18:31:04.062082,2025-10-10 18:26:37.062082,326,medium,critical,payments,assignee_3,performance regression ui backend,fakesummary,interim1
+442,2024-09-10 16:32:09.062082,2026-03-18 19:06:19.062082,554,high,major,infra,assignee_1,ui performance backend,fakesummary,interim1
+443,2025-06-04 03:10:49.062082,2026-06-10 10:03:07.062082,371,high,major,backend,assignee_5,ui backend,fakesummary,interim1
+444,2024-07-09 05:52:10.062082,2024-10-15 21:30:28.062082,98,medium,blocker,backend,assignee_5,backend regression performance,fakesummary,interim1
+445,2025-09-21 22:22:13.062082,2027-02-07 09:54:04.062082,503,critical,major,infra,assignee_1,regression backend performance,fakesummary,interim1
+446,2025-04-10 05:53:32.062082,2026-08-30 23:30:24.062082,507,critical,major,payments,assignee_4,regression backend performance ui,fakesummary,interim1
+447,2024-03-03 04:03:08.062082,2025-05-24 22:33:48.062082,447,critical,minor,auth,assignee_3,backend performance ui regression,fakesummary,interim1
+448,2025-10-21 03:36:37.062082,2026-03-25 02:18:41.062082,154,medium,critical,payments,assignee_5,backend ui,fakesummary,interim1
+449,2024-02-13 23:18:19.062082,2025-08-19 17:02:28.062082,552,critical,major,infra,assignee_1,ui backend regression,fakesummary,interim1
+450,2024-04-21 14:46:25.062082,2025-01-23 18:31:20.062082,277,critical,minor,registration,assignee_2,ui,fakesummary,interim1
+451,2024-04-24 09:51:19.062082,2026-03-07 13:02:12.062082,682,high,major,auth,assignee_4,backend,fakesummary,interim1
+452,2025-10-12 23:13:24.062082,2027-05-18 08:07:25.062082,582,medium,blocker,auth,assignee_3,backend,fakesummary,interim1
+453,2024-03-13 20:34:33.062082,2024-03-21 23:28:44.062082,8,high,minor,backend,assignee_5,regression backend performance ui,fakesummary,interim1
+454,2026-01-05 01:23:34.062082,2026-09-13 09:54:37.062082,251,medium,blocker,registration,assignee_3,regression,fakesummary,interim1
+455,2024-11-14 01:05:50.062082,2026-01-25 15:05:02.062082,437,high,major,obfuscation,assignee_1,performance ui,fakesummary,interim1
+456,2024-08-28 23:40:45.062082,2024-10-28 13:10:26.062082,60,high,minor,ui,assignee_4,backend performance,fakesummary,interim1
+457,2025-05-16 16:04:53.062082,2026-04-15 05:57:08.062082,333,high,major,payments,assignee_1,regression performance backend,fakesummary,interim1
+458,2025-06-29 20:02:30.062082,2025-12-28 01:49:23.062082,181,medium,blocker,payments,assignee_2,performance ui regression,fakesummary,interim1
+459,2025-12-29 20:25:10.062082,2026-03-29 08:06:02.062082,89,medium,blocker,ui,assignee_1,backend performance regression,fakesummary,interim1
+460,2024-04-05 16:56:54.062082,2024-11-26 16:29:10.062082,234,critical,minor,payments,assignee_4,backend regression ui performance,fakesummary,interim1
+461,2025-07-11 15:43:04.062082,2027-02-11 00:15:31.062082,579,medium,critical,backend,assignee_3,performance ui,fakesummary,interim1
+462,2025-01-31 16:55:16.062082,2025-02-02 08:09:14.062082,1,critical,critical,ui,assignee_3,backend,fakesummary,interim1
+463,2025-07-07 11:05:09.062082,2026-05-05 03:23:44.062082,301,high,critical,auth,assignee_3,ui performance backend,fakesummary,interim1
+464,2025-09-28 08:40:09.062082,2025-12-01 09:54:03.062082,64,critical,critical,auth,assignee_1,performance regression,fakesummary,interim1
+465,2024-08-29 07:19:18.062082,2025-10-15 05:00:38.062082,411,medium,critical,auth,assignee_1,regression ui,fakesummary,interim1
+466,2025-05-28 16:23:31.062082,2025-07-20 23:46:44.062082,53,critical,blocker,auth,assignee_4,performance regression backend,fakesummary,interim1
+467,2024-01-27 06:07:43.062082,2024-02-13 13:41:32.062082,17,medium,major,infra,assignee_5,backend,fakesummary,interim1
+468,2024-03-10 10:19:21.062082,2025-05-10 18:53:39.062082,426,critical,blocker,backend,assignee_4,regression ui performance backend,fakesummary,interim1
+469,2025-10-16 21:55:28.062082,2027-08-08 16:23:30.062082,660,critical,major,infra,assignee_3,performance regression backend ui,fakesummary,interim1
+470,2025-08-01 07:07:39.062082,2025-12-11 19:59:00.062082,132,medium,critical,auth,assignee_2,ui performance regression backend,fakesummary,interim1
+471,2025-03-28 13:17:20.062082,2027-02-23 17:46:08.062082,697,high,major,payments,assignee_3,performance,fakesummary,interim1
+472,2025-10-18 15:32:17.062082,2027-01-03 21:03:40.062082,442,medium,blocker,backend,assignee_5,regression,fakesummary,interim1
+473,2024-10-23 12:57:17.062082,2026-06-04 03:34:04.062082,588,medium,critical,auth,assignee_4,ui,fakesummary,interim1
+474,2024-03-12 09:18:35.062082,2024-06-18 10:05:05.062082,98,critical,blocker,backend,assignee_2,ui performance,fakesummary,interim1
+475,2025-04-25 20:54:56.062082,2026-08-02 09:01:58.062082,463,medium,minor,payments,assignee_4,regression performance ui backend,fakesummary,interim1
+476,2024-05-09 08:09:11.062082,2025-04-06 16:24:33.062082,332,medium,major,ui,assignee_3,ui regression backend,fakesummary,interim1
+477,2025-05-13 16:30:20.062082,2025-10-14 00:15:50.062082,153,high,blocker,ui,assignee_1,backend,fakesummary,interim1
+478,2024-04-30 22:16:38.062082,2026-02-11 17:00:45.062082,651,critical,major,obfuscation,assignee_3,backend regression performance ui,fakesummary,interim1
+479,2025-07-04 16:34:47.062082,2025-07-10 04:58:03.062082,5,low,minor,ui,assignee_5,ui backend performance,fakesummary,interim1
+480,2024-07-15 12:53:17.062082,2024-10-01 09:23:56.062082,77,critical,major,registration,assignee_5,backend ui regression,fakesummary,interim1
+481,2024-06-16 18:14:59.062082,2025-09-22 04:03:19.062082,462,medium,major,auth,assignee_1,regression ui,fakesummary,interim1
+482,2025-03-12 21:12:25.062082,2025-04-22 10:28:36.062082,40,critical,minor,ui,assignee_4,ui backend regression performance,fakesummary,interim1
+483,2024-03-05 11:26:51.062082,2025-03-01 11:30:28.062082,361,high,blocker,ui,assignee_5,regression,fakesummary,interim1
+484,2024-08-15 21:15:59.062082,2025-11-28 17:53:24.062082,469,critical,minor,backend,assignee_3,ui regression performance backend,fakesummary,interim1
+485,2024-12-04 04:14:58.062082,2025-10-04 02:52:34.062082,303,critical,critical,ui,assignee_1,backend ui regression,fakesummary,interim1
+486,2025-03-28 07:53:41.062082,2026-10-21 18:04:14.062082,572,medium,critical,backend,assignee_5,ui backend,fakesummary,interim1
+487,2025-12-27 08:01:37.062082,2027-12-08 18:47:44.062082,711,low,critical,obfuscation,assignee_2,performance regression ui,fakesummary,interim1
+488,2025-11-11 09:39:59.062082,2027-06-25 10:22:21.062082,591,critical,major,registration,assignee_2,performance ui,fakesummary,interim1
+489,2024-12-26 08:51:28.062082,2025-06-13 09:53:16.062082,169,medium,critical,registration,assignee_3,backend regression,fakesummary,interim1
+490,2025-11-05 03:58:23.062082,2027-09-21 06:44:36.062082,685,critical,critical,ui,assignee_3,backend ui regression performance,fakesummary,interim1
+491,2024-03-11 16:43:57.062082,2025-04-24 16:34:46.062082,408,medium,major,obfuscation,assignee_5,backend performance regression,fakesummary,interim1
+492,2025-09-29 20:05:23.062082,2026-04-29 17:56:36.062082,211,low,blocker,obfuscation,assignee_2,backend,fakesummary,interim1
+493,2024-08-09 09:40:41.062082,2024-11-11 17:37:03.062082,94,high,critical,payments,assignee_1,performance ui,fakesummary,interim1
+494,2025-05-31 19:47:51.062082,2027-01-06 02:53:15.062082,584,medium,major,registration,assignee_1,performance,fakesummary,interim1
+495,2024-02-11 07:26:38.062082,2025-03-21 05:53:44.062082,403,critical,critical,ui,assignee_2,regression performance ui,fakesummary,interim1
+496,2025-02-07 01:10:04.062082,2025-09-14 20:45:13.062082,219,high,critical,obfuscation,assignee_1,ui performance regression backend,fakesummary,interim1
+497,2025-01-24 23:10:55.062082,2026-12-06 07:24:24.062082,680,medium,major,payments,assignee_5,backend,fakesummary,interim1
+498,2024-01-22 16:21:25.062082,2026-01-14 06:06:51.062082,722,critical,major,ui,assignee_3,regression backend performance ui,fakesummary,interim1
+499,2025-02-20 09:40:38.062082,2026-10-25 02:28:46.062082,611,critical,critical,auth,assignee_4,performance regression backend,fakesummary,interim1
+500,2025-04-26 09:43:55.062082,2026-06-22 18:01:02.062082,422,medium,major,payments,assignee_3,ui,fakesummary,interim1
+501,2025-07-10 15:52:15.062082,2026-07-03 11:08:58.062082,357,high,major,backend,assignee_1,performance backend regression ui,fakesummary,interim1
+502,2024-08-26 04:17:15.062082,2025-04-09 08:33:16.062082,226,high,major,auth,assignee_4,performance regression backend ui,fakesummary,interim1
+503,2024-02-04 09:59:54.062082,2024-04-22 11:16:22.062082,78,medium,major,registration,assignee_1,performance ui,fakesummary,interim1
+504,2025-11-27 17:43:38.062082,2027-10-07 06:45:34.062082,678,medium,major,infra,assignee_1,ui performance regression,fakesummary,interim1
+505,2024-11-09 02:41:33.062082,2025-08-11 03:12:22.062082,275,critical,critical,obfuscation,assignee_3,performance regression backend,fakesummary,interim1
+506,2024-03-18 04:36:01.062082,2024-11-28 10:24:18.062082,255,medium,major,registration,assignee_1,ui,fakesummary,interim1
+507,2024-05-19 07:18:17.062082,2024-11-03 09:09:03.062082,168,critical,critical,payments,assignee_1,regression,fakesummary,interim1
+508,2025-08-27 02:04:56.062082,2026-08-24 13:15:58.062082,362,high,major,payments,assignee_4,regression performance backend,fakesummary,interim1
+509,2025-02-19 08:48:00.062082,2025-11-08 18:15:46.062082,262,medium,major,backend,assignee_3,performance backend,fakesummary,interim1
+510,2025-12-20 04:09:24.062082,2027-10-09 14:29:48.062082,658,high,major,ui,assignee_4,ui,fakesummary,interim1
+511,2025-04-06 12:50:15.062082,2027-02-20 03:18:12.062082,684,medium,major,ui,assignee_1,performance,fakesummary,interim1
+512,2025-02-24 15:19:59.062082,2025-07-02 23:36:29.062082,128,medium,major,infra,assignee_2,regression ui,fakesummary,interim1
+513,2024-08-20 04:54:14.062082,2025-12-27 09:49:07.062082,494,medium,critical,auth,assignee_5,backend ui performance regression,fakesummary,interim1
+514,2025-02-05 06:08:17.062082,2026-07-27 19:10:10.062082,537,high,minor,infra,assignee_4,performance,fakesummary,interim1
+515,2024-10-29 10:27:52.062082,2025-04-20 12:05:55.062082,173,medium,major,payments,assignee_5,performance regression,fakesummary,interim1
+516,2024-10-15 05:23:06.062082,2026-02-12 18:11:59.062082,485,medium,blocker,auth,assignee_3,ui backend,fakesummary,interim1
+517,2025-12-28 01:58:40.062082,2027-10-28 19:18:56.062082,669,critical,critical,ui,assignee_5,backend regression performance,fakesummary,interim1
+518,2024-05-10 15:45:37.062082,2024-10-26 04:02:00.062082,168,high,major,ui,assignee_1,backend performance,fakesummary,interim1
+519,2025-05-03 23:08:56.062082,2027-01-20 11:41:33.062082,626,medium,critical,payments,assignee_3,regression,fakesummary,interim1
+520,2025-10-08 21:17:23.062082,2026-08-15 10:11:55.062082,310,high,minor,infra,assignee_1,performance ui,fakesummary,interim1
+521,2024-02-07 15:16:54.062082,2025-10-05 08:17:57.062082,605,medium,major,registration,assignee_5,regression performance ui backend,fakesummary,interim1
+522,2025-03-19 17:11:46.062082,2025-05-02 11:39:43.062082,43,critical,critical,ui,assignee_1,regression performance ui backend,fakesummary,interim1
+523,2025-03-01 13:18:35.062082,2026-11-19 23:49:09.062082,628,critical,minor,infra,assignee_2,ui performance backend regression,fakesummary,interim1
+524,2025-05-08 20:35:44.062082,2025-09-24 17:03:39.062082,138,medium,major,ui,assignee_5,ui,fakesummary,interim1
+525,2025-03-20 00:55:00.062082,2027-01-23 22:23:28.062082,674,medium,critical,infra,assignee_3,performance,fakesummary,interim1
+526,2024-09-11 13:49:01.062082,2026-06-02 19:02:57.062082,629,medium,major,obfuscation,assignee_5,regression backend ui,fakesummary,interim1
+527,2024-06-30 21:11:27.062082,2024-11-24 10:59:27.062082,146,critical,critical,infra,assignee_2,performance ui regression,fakesummary,interim1
+528,2024-01-31 05:46:50.062082,2024-11-04 15:18:58.062082,278,medium,critical,auth,assignee_3,ui,fakesummary,interim1
+529,2024-06-21 13:06:10.062082,2026-01-21 15:38:00.062082,579,critical,major,registration,assignee_2,performance regression ui backend,fakesummary,interim1
+530,2024-10-07 22:28:39.062082,2026-07-27 14:19:59.062082,657,high,major,ui,assignee_5,performance backend regression,fakesummary,interim1
+531,2026-01-06 10:45:59.062082,2026-09-21 03:39:42.062082,257,medium,major,ui,assignee_2,regression,fakesummary,interim1
+532,2024-03-13 12:56:35.062082,2025-06-19 02:59:35.062082,462,critical,minor,backend,assignee_3,performance backend regression,fakesummary,interim1
+533,2024-05-20 15:38:11.062082,2024-11-23 17:48:45.062082,187,critical,minor,obfuscation,assignee_3,backend performance,fakesummary,interim1
+534,2024-01-11 05:06:20.062082,2025-07-22 17:58:45.062082,558,critical,critical,registration,assignee_2,backend ui performance regression,fakesummary,interim1
+535,2024-09-28 08:49:41.062082,2024-12-04 00:10:51.062082,66,medium,major,infra,assignee_2,ui,fakesummary,interim1
+536,2024-02-03 05:13:10.062082,2025-09-09 13:02:02.062082,584,medium,blocker,auth,assignee_4,regression,fakesummary,interim1
+537,2025-01-26 12:10:04.062082,2027-01-03 04:41:21.062082,706,medium,major,registration,assignee_2,performance backend,fakesummary,interim1
+538,2024-09-22 11:00:10.062082,2025-10-14 03:58:38.062082,386,high,critical,ui,assignee_2,regression performance ui backend,fakesummary,interim1
+539,2025-03-17 23:49:21.062082,2026-01-25 15:22:54.062082,313,medium,major,payments,assignee_2,regression performance ui backend,fakesummary,interim1
+540,2024-09-15 19:23:36.062082,2026-04-23 15:28:26.062082,584,critical,critical,auth,assignee_5,performance,fakesummary,interim1
+541,2025-03-22 19:19:11.062082,2025-06-09 09:07:16.062082,78,high,major,auth,assignee_4,ui backend performance,fakesummary,interim1
+542,2024-07-08 22:18:41.062082,2024-08-07 21:43:02.062082,29,medium,major,registration,assignee_2,ui performance regression,fakesummary,interim1
+543,2024-02-20 14:44:31.062082,2024-04-08 09:16:05.062082,47,medium,minor,backend,assignee_4,backend,fakesummary,interim1
+544,2024-11-27 21:33:46.062082,2026-11-10 03:44:57.062082,712,high,major,payments,assignee_1,regression,fakesummary,interim1
+545,2024-06-16 14:22:03.062082,2025-02-09 19:48:41.062082,238,medium,major,registration,assignee_3,ui backend performance,fakesummary,interim1
+546,2025-11-02 02:33:00.062082,2027-09-21 07:37:34.062082,688,low,minor,backend,assignee_2,ui,fakesummary,interim1
+547,2024-03-16 06:20:12.062082,2025-07-05 21:54:59.062082,476,medium,critical,backend,assignee_1,ui backend regression performance,fakesummary,interim1
+548,2025-02-03 16:01:32.062082,2025-10-08 20:34:45.062082,247,medium,major,infra,assignee_1,backend,fakesummary,interim1
+549,2025-01-21 19:03:15.062082,2025-12-19 17:34:13.062082,331,medium,critical,registration,assignee_3,performance backend ui regression,fakesummary,interim1
+550,2025-06-27 00:59:53.062082,2025-08-14 14:16:19.062082,48,high,major,auth,assignee_4,ui backend performance regression,fakesummary,interim1
+551,2025-05-17 12:53:13.062082,2025-07-01 07:11:45.062082,44,medium,major,auth,assignee_1,backend performance,fakesummary,interim1
+552,2024-10-11 09:20:05.062082,2025-08-13 17:45:56.062082,306,high,blocker,infra,assignee_3,performance ui backend,fakesummary,interim1
+553,2025-11-28 14:22:12.062082,2027-06-02 12:42:13.062082,550,medium,minor,infra,assignee_2,backend,fakesummary,interim1
+554,2025-01-06 00:40:27.062082,2026-11-02 15:10:53.062082,665,high,major,obfuscation,assignee_5,ui,fakesummary,interim1
+555,2024-12-26 16:14:33.062082,2026-11-17 02:49:53.062082,690,medium,blocker,infra,assignee_4,backend performance,fakesummary,interim1
+556,2025-09-13 20:22:28.062082,2026-02-13 10:11:39.062082,152,medium,critical,ui,assignee_2,ui regression performance backend,fakesummary,interim1
+557,2024-05-12 22:54:30.062082,2024-09-29 10:43:42.062082,139,critical,critical,ui,assignee_4,backend ui performance,fakesummary,interim1
+558,2024-07-05 19:35:39.062082,2024-09-30 08:07:58.062082,86,medium,major,obfuscation,assignee_4,regression backend performance ui,fakesummary,interim1
+559,2024-09-20 06:04:53.062082,2025-02-24 22:20:54.062082,157,medium,critical,payments,assignee_4,ui,fakesummary,interim1
+560,2024-03-15 18:35:13.062082,2024-04-10 14:13:06.062082,25,medium,blocker,payments,assignee_1,performance,fakesummary,interim1
+561,2025-02-02 22:17:21.062082,2025-11-27 11:31:24.062082,297,high,blocker,ui,assignee_5,backend regression ui,fakesummary,interim1
+562,2025-01-05 07:50:22.062082,2025-08-31 11:45:06.062082,238,medium,blocker,obfuscation,assignee_3,ui backend regression performance,fakesummary,interim1
+563,2025-03-03 06:02:50.062082,2025-10-25 15:09:53.062082,236,low,major,registration,assignee_4,regression,fakesummary,interim1
+564,2024-03-01 13:47:26.062082,2026-02-16 23:35:14.062082,717,high,blocker,registration,assignee_1,regression ui,fakesummary,interim1
+565,2025-04-08 04:40:39.062082,2027-03-10 14:44:24.062082,701,critical,major,ui,assignee_4,ui regression,fakesummary,interim1
+566,2024-08-23 17:59:05.062082,2025-02-21 08:53:35.062082,181,high,critical,backend,assignee_3,backend ui performance,fakesummary,interim1
+567,2024-09-06 17:10:47.062082,2026-05-18 16:35:10.062082,618,medium,blocker,backend,assignee_1,backend,fakesummary,interim1
+568,2024-03-19 02:54:14.062082,2025-11-11 19:31:43.062082,602,medium,critical,registration,assignee_2,regression performance backend,fakesummary,interim1
+569,2025-01-04 00:30:44.062082,2026-08-28 06:26:55.062082,601,high,major,backend,assignee_2,performance ui regression backend,fakesummary,interim1
+570,2025-07-21 03:30:43.062082,2025-10-20 16:39:25.062082,91,medium,blocker,registration,assignee_1,performance backend ui regression,fakesummary,interim1
+571,2024-09-06 09:17:43.062082,2026-04-17 05:06:26.062082,587,medium,critical,infra,assignee_3,ui,fakesummary,interim1
+572,2024-12-12 19:01:42.062082,2026-07-19 06:37:16.062082,583,high,critical,infra,assignee_3,performance regression ui backend,fakesummary,interim1
+573,2025-02-10 19:34:23.062082,2025-08-22 19:10:17.062082,192,critical,major,registration,assignee_1,regression backend ui performance,fakesummary,interim1
+574,2025-03-30 16:15:27.062082,2026-05-08 04:16:27.062082,403,critical,major,infra,assignee_2,performance regression,fakesummary,interim1
+575,2025-11-11 02:03:11.062082,2027-03-14 15:43:30.062082,488,critical,minor,auth,assignee_3,performance backend,fakesummary,interim1
+576,2025-06-25 19:50:29.062082,2025-12-24 22:50:31.062082,182,medium,blocker,payments,assignee_1,performance regression backend,fakesummary,interim1
+577,2025-10-04 07:35:14.062082,2026-05-05 10:45:08.062082,213,low,critical,obfuscation,assignee_3,regression ui performance,fakesummary,interim1
+578,2025-11-12 19:44:11.062082,2027-01-02 13:37:42.062082,415,medium,major,ui,assignee_4,ui backend performance regression,fakesummary,interim1
+579,2025-05-31 04:14:21.062082,2027-04-04 15:27:06.062082,673,medium,critical,obfuscation,assignee_1,performance regression backend,fakesummary,interim1
+580,2024-03-27 18:57:27.062082,2024-07-22 23:55:09.062082,117,medium,blocker,infra,assignee_4,regression ui backend,fakesummary,interim1
+581,2025-02-05 18:44:07.062082,2026-02-02 06:19:32.062082,361,medium,critical,infra,assignee_4,performance backend ui regression,fakesummary,interim1
+582,2025-08-30 10:19:46.062082,2027-05-21 17:02:42.062082,629,medium,critical,registration,assignee_2,backend,fakesummary,interim1
+583,2024-10-11 19:08:38.062082,2025-11-20 11:28:11.062082,404,high,major,infra,assignee_2,backend,fakesummary,interim1
+584,2025-06-21 06:18:29.062082,2025-11-07 10:27:38.062082,139,high,blocker,ui,assignee_2,ui performance regression,fakesummary,interim1
+585,2025-08-27 02:12:23.062082,2026-08-08 08:27:29.062082,346,medium,critical,infra,assignee_4,performance backend ui regression,fakesummary,interim1
+586,2025-12-12 13:35:17.062082,2027-02-11 00:44:03.062082,425,high,blocker,backend,assignee_3,performance backend regression ui,fakesummary,interim1
+587,2025-09-20 08:07:07.062082,2026-09-29 20:34:19.062082,374,medium,major,infra,assignee_1,regression performance ui,fakesummary,interim1
+588,2025-02-21 15:16:15.062082,2025-09-28 12:10:15.062082,218,high,critical,payments,assignee_1,regression backend,fakesummary,interim1
+589,2024-03-23 10:58:31.062082,2024-06-06 13:44:36.062082,75,high,major,payments,assignee_4,performance ui regression backend,fakesummary,interim1
+590,2025-12-03 21:27:52.062082,2026-01-03 00:39:50.062082,30,low,blocker,obfuscation,assignee_4,performance ui,fakesummary,interim1
+591,2024-12-29 07:50:20.062082,2025-11-15 18:47:10.062082,321,low,critical,payments,assignee_5,backend regression,fakesummary,interim1
+592,2024-04-02 06:07:45.062082,2025-09-27 02:12:21.062082,542,medium,blocker,ui,assignee_3,ui backend performance regression,fakesummary,interim1
+593,2024-08-07 01:33:34.062082,2024-12-31 15:02:54.062082,146,critical,blocker,payments,assignee_1,backend regression performance ui,fakesummary,interim1
+594,2025-12-04 00:42:54.062082,2027-08-15 19:12:55.062082,619,high,critical,ui,assignee_4,ui regression performance,fakesummary,interim1
+595,2024-05-11 23:10:42.062082,2025-10-24 02:10:38.062082,530,high,blocker,registration,assignee_3,regression,fakesummary,interim1
+596,2025-03-31 14:44:28.062082,2025-12-07 04:33:25.062082,250,medium,critical,auth,assignee_1,ui,fakesummary,interim1
+597,2025-06-24 10:41:17.062082,2026-04-05 07:55:51.062082,284,critical,minor,infra,assignee_1,ui performance,fakesummary,interim1
+598,2025-11-26 17:17:38.062082,2027-07-06 11:00:00.062082,586,high,blocker,registration,assignee_4,backend regression,fakesummary,interim1
+599,2025-10-11 17:19:42.062082,2027-02-04 18:26:30.062082,481,medium,critical,payments,assignee_2,ui,fakesummary,interim1
+600,2025-04-09 23:35:11.062082,2025-12-08 21:42:06.062082,242,medium,major,obfuscation,assignee_5,backend performance regression ui,fakesummary,interim1
+601,2025-10-04 23:16:45.062082,2026-08-11 08:40:48.062082,310,medium,major,backend,assignee_4,ui,fakesummary,interim1
+602,2024-08-07 19:01:05.062082,2026-05-03 09:34:25.062082,633,medium,critical,infra,assignee_2,regression performance,fakesummary,interim1
+603,2024-09-16 15:58:11.062082,2025-07-01 07:03:33.062082,287,critical,major,obfuscation,assignee_3,regression ui,fakesummary,interim1
+604,2024-12-24 18:15:04.062082,2025-08-12 00:39:15.062082,230,medium,critical,payments,assignee_2,regression ui,fakesummary,interim1
+605,2025-09-01 01:54:02.062082,2027-06-22 01:16:28.062082,658,medium,minor,ui,assignee_2,regression,fakesummary,interim1
+606,2024-09-28 22:47:34.062082,2026-05-01 10:15:17.062082,579,critical,major,auth,assignee_1,performance ui regression backend,fakesummary,interim1
+607,2025-06-10 13:36:24.062082,2026-02-06 22:00:39.062082,241,medium,major,payments,assignee_3,backend ui,fakesummary,interim1
+608,2025-08-25 17:55:03.062082,2025-08-31 04:11:02.062082,5,high,major,registration,assignee_5,regression backend performance,fakesummary,interim1
+609,2024-08-21 05:42:24.062082,2026-05-23 09:37:06.062082,640,medium,major,obfuscation,assignee_4,ui backend regression performance,fakesummary,interim1
+610,2025-02-06 19:40:38.062082,2025-02-25 00:00:13.062082,18,critical,critical,obfuscation,assignee_1,regression backend,fakesummary,interim1
+611,2024-11-03 21:29:33.062082,2025-07-07 23:04:39.062082,246,low,major,payments,assignee_3,regression backend performance ui,fakesummary,interim1
+612,2025-01-27 17:43:05.062082,2026-04-23 19:36:34.062082,451,medium,major,ui,assignee_5,backend performance regression ui,fakesummary,interim1
+613,2024-07-19 14:49:07.062082,2024-09-11 16:54:35.062082,54,medium,critical,payments,assignee_5,backend regression performance,fakesummary,interim1
+614,2024-05-09 09:15:49.062082,2025-01-22 12:50:51.062082,258,medium,blocker,registration,assignee_2,regression backend ui,fakesummary,interim1
+615,2024-04-17 03:20:06.062082,2025-12-06 18:54:39.062082,598,low,major,backend,assignee_2,performance,fakesummary,interim1
+616,2025-04-08 17:46:26.062082,2027-02-01 02:34:55.062082,663,medium,critical,ui,assignee_4,regression ui performance,fakesummary,interim1
+617,2024-11-01 04:26:59.062082,2026-08-24 14:30:34.062082,661,medium,major,payments,assignee_1,performance ui regression,fakesummary,interim1
+618,2025-11-06 12:50:06.062082,2026-01-15 01:58:13.062082,69,critical,critical,auth,assignee_1,ui performance regression backend,fakesummary,interim1
+619,2024-07-17 08:22:33.062082,2026-01-31 15:21:41.062082,563,low,major,ui,assignee_2,ui regression,fakesummary,interim1
+620,2024-09-26 19:06:20.062082,2026-01-01 06:51:25.062082,461,low,critical,registration,assignee_1,ui,fakesummary,interim1
+621,2025-07-20 00:48:13.062082,2027-01-12 06:01:55.062082,541,critical,blocker,obfuscation,assignee_4,performance,fakesummary,interim1
+622,2025-12-25 04:12:29.062082,2027-05-01 18:00:06.062082,492,high,major,obfuscation,assignee_1,backend,fakesummary,interim1
+623,2026-01-02 20:46:43.062082,2027-12-09 14:44:22.062082,705,high,major,payments,assignee_1,performance ui backend regression,fakesummary,interim1
+624,2025-05-20 00:44:59.062082,2025-08-26 03:15:24.062082,98,high,critical,infra,assignee_2,regression performance backend,fakesummary,interim1
+625,2024-05-15 03:11:15.062082,2024-09-07 16:36:21.062082,115,medium,major,ui,assignee_1,performance regression ui backend,fakesummary,interim1
+626,2025-08-18 10:26:17.062082,2026-02-23 09:24:18.062082,188,low,blocker,infra,assignee_5,backend performance ui,fakesummary,interim1
+627,2025-11-16 12:11:07.062082,2027-04-12 17:15:15.062082,512,medium,critical,obfuscation,assignee_5,regression backend performance ui,fakesummary,interim1
+628,2025-08-28 12:52:57.062082,2026-02-09 04:09:17.062082,164,medium,major,payments,assignee_5,backend ui,fakesummary,interim1
+629,2024-03-01 18:47:04.062082,2024-08-25 16:24:22.062082,176,high,critical,auth,assignee_2,backend performance regression ui,fakesummary,interim1
+630,2025-07-11 15:23:36.062082,2025-10-27 08:07:37.062082,107,high,critical,payments,assignee_4,regression performance backend,fakesummary,interim1
+631,2025-04-21 12:36:41.062082,2026-04-23 00:20:36.062082,366,high,major,auth,assignee_3,regression performance backend ui,fakesummary,interim1
+632,2024-04-20 11:49:57.062082,2024-07-30 18:42:10.062082,101,critical,major,auth,assignee_3,ui,fakesummary,interim1
+633,2025-01-26 06:19:36.062082,2025-10-28 22:52:27.062082,275,high,critical,ui,assignee_2,regression ui backend performance,fakesummary,interim1
+634,2024-05-12 16:55:50.062082,2025-12-10 17:48:34.062082,577,high,major,ui,assignee_1,ui regression performance backend,fakesummary,interim1
+635,2025-06-02 05:09:43.062082,2025-06-15 18:53:26.062082,13,high,major,backend,assignee_3,ui,fakesummary,interim1
+636,2024-05-02 16:22:53.062082,2025-05-12 20:32:01.062082,375,medium,major,infra,assignee_4,backend performance regression,fakesummary,interim1
+637,2025-01-29 02:26:17.062082,2025-10-01 22:21:39.062082,245,critical,critical,payments,assignee_2,performance ui regression,fakesummary,interim1
+638,2025-10-03 19:36:20.062082,2027-01-24 09:00:13.062082,477,low,critical,backend,assignee_5,backend,fakesummary,interim1
+639,2025-12-14 15:05:59.062082,2027-02-20 15:47:54.062082,433,medium,major,ui,assignee_1,ui performance regression,fakesummary,interim1
+640,2025-02-12 22:01:00.062082,2026-03-06 19:06:05.062082,386,medium,major,backend,assignee_4,ui performance,fakesummary,interim1
+641,2024-04-30 08:50:01.062082,2026-03-30 12:33:42.062082,699,low,major,obfuscation,assignee_4,backend,fakesummary,interim1
+642,2024-08-04 07:58:18.062082,2026-07-16 06:37:51.062082,710,high,critical,obfuscation,assignee_4,performance backend ui,fakesummary,interim1
+643,2024-07-19 22:52:39.062082,2024-11-09 10:25:49.062082,112,medium,major,infra,assignee_3,backend ui regression performance,fakesummary,interim1
+644,2024-10-12 15:08:34.062082,2026-09-30 22:12:26.062082,718,medium,critical,infra,assignee_2,ui regression performance,fakesummary,interim1
+645,2025-01-13 15:04:15.062082,2026-12-23 02:30:32.062082,708,high,blocker,registration,assignee_5,regression backend performance,fakesummary,interim1
+646,2024-01-22 11:55:27.062082,2024-03-31 23:14:34.062082,69,high,critical,payments,assignee_4,regression performance,fakesummary,interim1
+647,2025-01-14 04:46:34.062082,2025-04-28 17:25:16.062082,104,high,minor,ui,assignee_5,ui regression backend performance,fakesummary,interim1
+648,2024-08-19 00:22:25.062082,2026-04-12 15:56:45.062082,601,critical,critical,auth,assignee_4,backend ui performance,fakesummary,interim1
+649,2024-07-27 15:10:30.062082,2025-08-01 21:35:33.062082,370,high,major,ui,assignee_4,regression performance backend,fakesummary,interim1
+650,2025-02-02 18:57:59.062082,2026-05-14 06:57:15.062082,465,medium,major,registration,assignee_2,backend regression,fakesummary,interim1
+651,2024-01-26 21:57:32.062082,2025-06-23 02:10:08.062082,513,high,minor,obfuscation,assignee_1,performance ui regression,fakesummary,interim1
+652,2025-07-02 11:19:09.062082,2026-12-14 09:05:54.062082,529,critical,major,auth,assignee_3,performance regression,fakesummary,interim1
+653,2025-02-11 18:55:21.062082,2025-07-15 02:39:13.062082,153,critical,major,registration,assignee_5,backend regression ui,fakesummary,interim1
+654,2024-02-11 00:31:30.062082,2025-05-23 04:27:20.062082,467,medium,major,obfuscation,assignee_1,ui performance regression,fakesummary,interim1
+655,2025-08-17 13:33:48.062082,2026-01-10 23:38:32.062082,146,medium,major,backend,assignee_2,performance ui regression,fakesummary,interim1
+656,2024-09-07 02:48:31.062082,2025-10-05 23:38:44.062082,393,high,critical,infra,assignee_4,ui regression backend,fakesummary,interim1
+657,2025-09-13 21:09:09.062082,2026-05-21 12:36:53.062082,249,low,critical,registration,assignee_5,performance ui,fakesummary,interim1
+658,2025-05-19 15:38:29.062082,2025-08-27 10:39:54.062082,99,high,blocker,registration,assignee_1,backend regression performance ui,fakesummary,interim1
+659,2025-12-02 06:25:45.062082,2026-09-26 11:37:44.062082,298,low,critical,backend,assignee_2,backend ui regression,fakesummary,interim1
+660,2025-12-07 09:11:16.062082,2026-05-17 02:59:40.062082,160,high,blocker,ui,assignee_1,performance ui backend,fakesummary,interim1
+661,2024-09-15 05:38:00.062082,2025-07-22 05:57:25.062082,310,medium,critical,backend,assignee_1,backend performance regression,fakesummary,interim1
+662,2024-08-19 23:29:22.062082,2025-07-13 08:39:19.062082,327,medium,minor,backend,assignee_1,backend,fakesummary,interim1
+663,2024-03-04 19:34:13.062082,2025-03-25 18:08:31.062082,385,medium,critical,infra,assignee_5,performance regression backend,fakesummary,interim1
+664,2025-12-25 06:39:04.062082,2027-03-07 03:26:35.062082,436,critical,critical,payments,assignee_2,performance regression,fakesummary,interim1
+665,2024-11-06 04:06:12.062082,2026-06-06 04:01:05.062082,576,high,major,obfuscation,assignee_2,backend regression ui performance,fakesummary,interim1
+666,2025-06-13 17:47:01.062082,2027-02-03 03:20:22.062082,599,high,major,payments,assignee_3,backend,fakesummary,interim1
+667,2025-01-19 17:24:40.062082,2026-09-25 19:04:30.062082,614,low,minor,ui,assignee_4,backend performance regression ui,fakesummary,interim1
+668,2025-03-24 19:42:46.062082,2025-09-28 10:58:40.062082,187,critical,major,obfuscation,assignee_4,regression backend ui,fakesummary,interim1
+669,2025-10-11 04:17:15.062082,2027-08-20 03:53:45.062082,677,high,major,obfuscation,assignee_4,regression backend,fakesummary,interim1
+670,2025-01-26 00:58:43.062082,2026-12-10 03:42:02.062082,683,medium,major,obfuscation,assignee_3,regression,fakesummary,interim1
+671,2024-02-03 23:11:11.062082,2025-05-28 15:18:45.062082,479,medium,major,auth,assignee_2,backend ui performance regression,fakesummary,interim1
+672,2024-09-21 19:26:06.062082,2025-08-16 01:35:15.062082,328,medium,major,ui,assignee_4,performance regression ui,fakesummary,interim1
+673,2025-10-26 21:35:24.062082,2026-04-25 06:55:10.062082,180,medium,critical,obfuscation,assignee_2,ui backend regression,fakesummary,interim1
+674,2025-06-05 07:53:44.062082,2026-05-03 16:33:39.062082,332,low,blocker,payments,assignee_1,backend,fakesummary,interim1
+675,2024-12-30 03:42:19.062082,2025-04-12 15:16:36.062082,103,medium,major,registration,assignee_5,backend,fakesummary,interim1
+676,2025-03-19 02:53:56.062082,2025-07-24 02:26:26.062082,126,medium,critical,auth,assignee_3,backend regression ui,fakesummary,interim1
+677,2025-10-07 22:28:41.062082,2027-03-23 09:00:58.062082,531,medium,minor,auth,assignee_4,backend,fakesummary,interim1
+678,2025-01-25 16:21:49.062082,2025-02-13 11:37:47.062082,18,high,critical,registration,assignee_3,regression backend,fakesummary,interim1
+679,2024-09-04 21:26:25.062082,2026-06-29 20:03:39.062082,662,medium,blocker,registration,assignee_1,performance backend ui,fakesummary,interim1
+680,2024-05-19 00:50:05.062082,2024-07-05 17:18:13.062082,47,high,minor,ui,assignee_1,performance regression ui,fakesummary,interim1
+681,2024-06-18 15:02:40.062082,2026-02-11 20:01:51.062082,603,high,major,obfuscation,assignee_5,regression performance,fakesummary,interim1
+682,2025-11-21 00:52:55.062082,2026-03-10 14:28:18.062082,109,high,blocker,auth,assignee_1,performance,fakesummary,interim1
+683,2024-09-20 04:52:46.062082,2025-05-11 20:31:59.062082,233,critical,critical,infra,assignee_4,backend ui,fakesummary,interim1
+684,2024-05-15 00:00:21.062082,2026-04-27 03:22:40.062082,712,high,major,registration,assignee_4,ui backend performance regression,fakesummary,interim1
+685,2024-12-01 19:35:56.062082,2025-04-23 18:54:12.062082,142,high,critical,payments,assignee_5,performance ui,fakesummary,interim1
+686,2025-05-13 00:53:02.062082,2027-04-13 00:40:52.062082,699,medium,critical,backend,assignee_3,ui regression,fakesummary,interim1
+687,2024-04-30 21:13:06.062082,2024-05-09 16:01:18.062082,8,critical,blocker,infra,assignee_4,regression backend,fakesummary,interim1
+688,2024-04-04 18:44:11.062082,2024-10-01 05:40:19.062082,179,critical,critical,obfuscation,assignee_4,backend ui regression performance,fakesummary,interim1
+689,2024-05-22 10:43:16.062082,2025-03-05 03:04:37.062082,286,high,critical,payments,assignee_1,ui regression performance,fakesummary,interim1
+690,2024-06-11 06:48:22.062082,2025-11-26 20:14:42.062082,533,medium,major,ui,assignee_5,performance ui backend regression,fakesummary,interim1
+691,2024-09-24 09:04:28.062082,2025-04-28 01:43:33.062082,215,high,major,registration,assignee_5,regression performance,fakesummary,interim1
+692,2024-10-04 21:02:28.062082,2025-09-27 20:21:34.062082,357,critical,critical,payments,assignee_1,regression backend performance ui,fakesummary,interim1
+693,2025-05-12 15:00:01.062082,2027-02-06 18:07:50.062082,635,low,major,registration,assignee_2,performance backend ui,fakesummary,interim1
+694,2025-04-22 06:54:41.062082,2026-09-24 08:28:21.062082,520,high,critical,backend,assignee_2,regression ui backend performance,fakesummary,interim1
+695,2025-03-28 05:54:50.062082,2026-12-15 12:31:54.062082,627,critical,critical,auth,assignee_2,ui performance,fakesummary,interim1
+696,2025-04-11 22:16:41.062082,2025-06-10 19:07:33.062082,59,medium,blocker,infra,assignee_4,performance ui backend,fakesummary,interim1
+697,2025-03-21 07:01:06.062082,2025-11-14 14:17:56.062082,238,high,blocker,registration,assignee_5,backend performance ui,fakesummary,interim1
+698,2024-01-31 23:57:02.062082,2025-11-14 11:55:11.062082,652,high,major,auth,assignee_4,backend,fakesummary,interim1
+699,2024-09-26 15:03:59.062082,2026-07-25 06:24:04.062082,666,critical,major,backend,assignee_3,ui backend regression,fakesummary,interim1
+700,2025-03-26 02:08:00.062082,2026-10-07 23:44:19.062082,560,high,critical,ui,assignee_2,ui regression performance backend,fakesummary,interim1
+701,2025-11-02 07:53:02.062082,2026-02-18 09:01:35.062082,108,low,critical,ui,assignee_2,regression ui,fakesummary,interim1
+702,2024-05-16 07:56:45.062082,2026-03-31 00:55:20.062082,683,medium,minor,registration,assignee_1,regression ui performance backend,fakesummary,interim1
+703,2025-01-12 13:21:14.062082,2026-02-14 14:23:03.062082,398,high,blocker,backend,assignee_2,performance ui regression backend,fakesummary,interim1
+704,2025-10-08 02:57:01.062082,2026-10-17 03:54:22.062082,374,critical,blocker,registration,assignee_1,ui backend regression,fakesummary,interim1
+705,2025-10-21 09:59:27.062082,2027-10-19 02:03:27.062082,727,low,blocker,registration,assignee_2,performance ui backend,fakesummary,interim1
+706,2024-03-13 02:35:18.062082,2025-03-22 14:08:25.062082,374,high,major,infra,assignee_3,ui,fakesummary,interim1
+707,2025-02-02 20:02:09.062082,2025-09-05 18:22:37.062082,214,high,blocker,obfuscation,assignee_2,regression backend ui performance,fakesummary,interim1
+708,2024-07-29 18:32:25.062082,2025-10-27 18:10:08.062082,454,high,critical,payments,assignee_5,regression,fakesummary,interim1
+709,2024-05-10 18:59:17.062082,2025-03-07 10:11:36.062082,300,medium,critical,registration,assignee_3,regression backend performance ui,fakesummary,interim1
+710,2024-02-11 03:23:37.062082,2024-05-05 10:24:20.062082,84,medium,major,payments,assignee_4,regression backend performance,fakesummary,interim1
+711,2024-04-04 19:33:42.062082,2025-12-21 21:38:14.062082,626,medium,critical,obfuscation,assignee_3,regression ui backend performance,fakesummary,interim1
+712,2024-04-28 04:47:53.062082,2024-06-21 18:37:21.062082,54,medium,blocker,ui,assignee_4,performance,fakesummary,interim1
+713,2024-08-28 09:08:25.062082,2024-09-03 15:48:39.062082,6,medium,major,obfuscation,assignee_3,backend performance,fakesummary,interim1
+714,2024-10-15 08:46:09.062082,2025-09-07 09:03:38.062082,327,medium,major,registration,assignee_2,regression backend,fakesummary,interim1
+715,2025-04-27 17:42:04.062082,2025-06-02 03:01:08.062082,35,high,major,auth,assignee_2,regression ui,fakesummary,interim1
+716,2024-12-05 11:33:01.062082,2025-10-20 11:39:15.062082,319,medium,major,backend,assignee_3,regression backend,fakesummary,interim1
+717,2026-01-03 23:05:50.062082,2026-05-14 07:42:35.062082,130,medium,major,auth,assignee_1,regression ui backend,fakesummary,interim1
+718,2024-11-29 10:23:31.062082,2024-12-01 20:59:54.062082,2,critical,major,ui,assignee_3,regression performance ui,fakesummary,interim1
+719,2024-11-03 02:42:00.062082,2026-05-13 06:55:22.062082,556,critical,major,ui,assignee_1,regression backend,fakesummary,interim1
+720,2024-05-02 19:34:59.062082,2025-06-28 04:24:04.062082,421,low,major,registration,assignee_4,ui backend regression,fakesummary,interim1
+721,2024-02-27 20:28:52.062082,2025-01-29 05:37:01.062082,336,high,critical,backend,assignee_4,ui performance backend,fakesummary,interim1
+722,2024-11-30 01:57:42.062082,2026-07-25 22:27:43.062082,602,medium,blocker,payments,assignee_1,performance ui backend,fakesummary,interim1
+723,2024-07-19 04:02:02.062082,2025-06-24 10:28:44.062082,340,low,blocker,ui,assignee_2,regression ui,fakesummary,interim1
+724,2024-02-04 12:34:58.062082,2024-11-01 12:49:28.062082,271,low,major,registration,assignee_4,ui backend regression performance,fakesummary,interim1
+725,2024-02-05 12:18:18.062082,2024-07-13 22:07:24.062082,159,high,major,payments,assignee_1,regression,fakesummary,interim1
+726,2024-09-06 05:40:57.062082,2026-06-25 04:17:53.062082,656,critical,minor,payments,assignee_1,ui performance backend regression,fakesummary,interim1
+727,2025-06-16 10:34:36.062082,2026-04-24 20:25:09.062082,312,low,major,infra,assignee_3,regression performance backend,fakesummary,interim1
+728,2024-05-07 09:51:36.062082,2025-04-17 03:31:57.062082,344,high,critical,ui,assignee_3,regression ui,fakesummary,interim1
+729,2024-06-22 12:31:59.062082,2025-09-09 10:49:58.062082,443,high,major,infra,assignee_3,backend,fakesummary,interim1
+730,2025-09-16 13:20:04.062082,2027-02-02 22:51:34.062082,504,high,blocker,auth,assignee_5,backend ui,fakesummary,interim1
+731,2025-02-11 15:54:47.062082,2026-02-26 16:17:37.062082,380,medium,critical,auth,assignee_5,ui performance backend,fakesummary,interim1
+732,2025-06-16 18:09:50.062082,2027-02-14 02:14:27.062082,607,critical,major,ui,assignee_3,performance backend ui,fakesummary,interim1
+733,2024-01-13 06:31:52.062082,2025-11-29 12:34:13.062082,686,medium,blocker,infra,assignee_3,regression,fakesummary,interim1
+734,2025-07-17 22:48:33.062082,2026-03-05 01:32:28.062082,230,critical,major,registration,assignee_2,backend regression,fakesummary,interim1
+735,2024-03-11 08:04:08.062082,2024-05-14 14:27:13.062082,64,high,major,backend,assignee_5,backend ui performance regression,fakesummary,interim1
+736,2026-01-04 04:53:41.062082,2026-04-30 03:09:32.062082,115,critical,major,registration,assignee_1,performance regression backend ui,fakesummary,interim1
+737,2024-08-23 21:57:40.062082,2025-09-12 18:38:23.062082,384,low,major,backend,assignee_1,backend regression performance,fakesummary,interim1
+738,2024-11-15 22:54:08.062082,2026-11-03 17:54:51.062082,717,critical,minor,obfuscation,assignee_5,ui backend regression performance,fakesummary,interim1
+739,2024-07-04 07:15:40.062082,2024-07-18 04:08:31.062082,13,high,critical,ui,assignee_1,ui regression,fakesummary,interim1
+740,2024-01-15 16:48:24.062082,2024-08-08 13:08:47.062082,205,medium,blocker,ui,assignee_2,ui regression performance backend,fakesummary,interim1
+741,2025-12-14 01:52:02.062082,2027-05-08 06:16:24.062082,510,critical,major,backend,assignee_1,backend ui regression performance,fakesummary,interim1
+742,2025-07-18 13:47:46.062082,2026-10-22 15:00:45.062082,461,high,major,payments,assignee_3,backend performance,fakesummary,interim1
+743,2024-10-11 12:44:01.062082,2025-09-28 00:27:09.062082,351,low,blocker,backend,assignee_1,performance backend,fakesummary,interim1
+744,2024-02-15 21:16:54.062082,2024-03-10 02:04:21.062082,23,medium,blocker,registration,assignee_5,regression backend performance,fakesummary,interim1
+745,2025-08-13 00:38:47.062082,2026-07-31 00:37:44.062082,351,low,critical,payments,assignee_1,regression,fakesummary,interim1
+746,2025-02-24 13:06:33.062082,2025-10-11 02:28:49.062082,228,high,major,obfuscation,assignee_4,performance backend,fakesummary,interim1
+747,2024-09-09 11:49:14.062082,2025-08-04 10:55:30.062082,328,critical,major,auth,assignee_2,backend ui regression,fakesummary,interim1
+748,2024-03-11 22:15:23.062082,2024-09-07 22:33:46.062082,180,low,major,infra,assignee_2,backend performance regression ui,fakesummary,interim1
+749,2025-05-26 07:14:59.062082,2026-03-03 04:22:29.062082,280,medium,major,infra,assignee_5,ui,fakesummary,interim1
+750,2025-12-22 14:58:37.062082,2027-03-11 21:23:26.062082,444,medium,blocker,registration,assignee_3,regression,fakesummary,interim1
+751,2024-11-17 17:41:02.062082,2026-05-16 12:40:43.062082,544,medium,critical,backend,assignee_2,performance regression backend ui,fakesummary,interim1
+752,2025-10-21 20:33:22.062082,2026-09-01 18:52:42.062082,314,high,major,obfuscation,assignee_4,performance backend ui,fakesummary,interim1
+753,2025-10-20 17:16:46.062082,2027-02-07 17:32:34.062082,475,critical,minor,payments,assignee_2,backend,fakesummary,interim1
+754,2024-12-07 14:23:01.062082,2025-07-03 08:16:38.062082,207,medium,minor,auth,assignee_5,backend performance,fakesummary,interim1
+755,2024-06-27 11:55:36.062082,2025-01-01 02:41:57.062082,187,high,blocker,infra,assignee_1,performance regression ui,fakesummary,interim1
+756,2024-05-17 04:18:32.062082,2025-04-21 04:43:22.062082,339,critical,major,backend,assignee_2,regression backend ui performance,fakesummary,interim1
+757,2024-04-21 11:39:38.062082,2024-08-18 04:41:59.062082,118,medium,critical,obfuscation,assignee_5,performance backend regression ui,fakesummary,interim1
+758,2025-06-30 13:16:37.062082,2026-06-12 11:18:47.062082,346,medium,major,infra,assignee_1,regression ui performance backend,fakesummary,interim1
+759,2024-02-09 17:20:24.062082,2025-12-21 23:21:06.062082,681,high,major,obfuscation,assignee_2,backend ui performance regression,fakesummary,interim1
+760,2024-10-29 02:45:04.062082,2024-10-29 12:51:37.062082,0,medium,blocker,registration,assignee_2,regression,fakesummary,interim1
+761,2025-01-16 05:10:34.062082,2026-01-13 12:58:24.062082,362,medium,major,ui,assignee_1,backend ui,fakesummary,interim1
+762,2025-10-25 10:07:46.062082,2025-11-19 08:58:57.062082,24,high,major,infra,assignee_3,ui performance,fakesummary,interim1
+763,2025-07-17 01:33:20.062082,2026-08-01 00:06:27.062082,379,medium,major,payments,assignee_2,regression ui,fakesummary,interim1
+764,2025-03-30 00:24:56.062082,2027-02-02 14:06:17.062082,674,critical,critical,backend,assignee_3,regression performance,fakesummary,interim1
+765,2025-08-18 11:43:04.062082,2025-08-21 11:12:01.062082,2,low,major,backend,assignee_4,ui regression,fakesummary,interim1
+766,2024-08-20 08:24:04.062082,2025-06-03 05:07:32.062082,286,medium,minor,backend,assignee_4,performance backend,fakesummary,interim1
+767,2025-05-21 00:41:50.062082,2026-12-07 21:45:17.062082,565,low,blocker,infra,assignee_5,regression performance ui,fakesummary,interim1
+768,2025-10-08 01:23:38.062082,2027-08-23 03:40:03.062082,684,critical,major,obfuscation,assignee_1,performance backend regression,fakesummary,interim1
+769,2025-11-20 22:30:57.062082,2026-05-21 08:50:23.062082,181,high,blocker,payments,assignee_2,ui regression performance backend,fakesummary,interim1
+770,2024-12-23 03:45:15.062082,2026-05-28 14:46:23.062082,521,critical,critical,obfuscation,assignee_5,backend regression performance,fakesummary,interim1
+771,2024-07-22 16:20:00.062082,2024-08-14 18:42:18.062082,23,medium,major,registration,assignee_3,regression performance backend,fakesummary,interim1
+772,2025-07-17 04:23:40.062082,2027-04-26 21:46:40.062082,648,critical,major,auth,assignee_2,performance backend regression ui,fakesummary,interim1
+773,2024-07-10 07:55:26.062082,2025-05-29 08:46:42.062082,323,medium,minor,auth,assignee_1,ui performance backend,fakesummary,interim1
+774,2024-12-29 17:15:40.062082,2026-05-24 18:37:30.062082,511,high,major,payments,assignee_2,performance regression ui,fakesummary,interim1
+775,2025-08-23 19:38:06.062082,2027-07-06 09:29:41.062082,681,high,major,ui,assignee_1,performance backend,fakesummary,interim1
+776,2025-08-31 02:44:34.062082,2026-08-21 10:26:58.062082,355,medium,major,registration,assignee_2,backend regression,fakesummary,interim1
+777,2024-06-27 05:01:39.062082,2025-12-11 10:07:37.062082,532,high,blocker,registration,assignee_5,backend,fakesummary,interim1
+778,2025-11-14 16:29:10.062082,2026-12-25 01:10:24.062082,405,medium,major,infra,assignee_1,backend,fakesummary,interim1
+779,2025-03-25 05:46:24.062082,2025-07-05 08:11:44.062082,102,critical,critical,registration,assignee_4,performance backend ui regression,fakesummary,interim1
+780,2025-07-12 02:10:37.062082,2026-11-30 05:02:05.062082,506,medium,critical,registration,assignee_2,regression backend performance,fakesummary,interim1
+781,2025-10-24 21:53:38.062082,2026-01-26 09:12:35.062082,93,critical,major,ui,assignee_3,backend regression ui performance,fakesummary,interim1
+782,2024-02-08 03:57:12.062082,2025-11-27 16:30:35.062082,658,medium,major,registration,assignee_3,backend ui regression performance,fakesummary,interim1
+783,2025-07-27 03:08:22.062082,2026-07-06 16:13:49.062082,344,critical,critical,payments,assignee_2,regression backend performance ui,fakesummary,interim1
+784,2024-08-23 15:59:27.062082,2025-11-24 01:44:41.062082,457,low,critical,payments,assignee_5,regression,fakesummary,interim1
+785,2024-01-12 00:24:25.062082,2024-08-26 14:22:12.062082,227,medium,major,infra,assignee_2,regression backend performance,fakesummary,interim1
+786,2024-06-23 23:05:36.062082,2026-02-02 00:45:50.062082,588,medium,major,infra,assignee_1,ui,fakesummary,interim1
+787,2025-11-09 06:30:04.062082,2027-08-26 11:27:48.062082,655,medium,critical,registration,assignee_2,backend ui performance regression,fakesummary,interim1
+788,2025-12-30 04:46:05.062082,2027-04-02 18:28:01.062082,458,medium,minor,infra,assignee_4,backend ui,fakesummary,interim1
+789,2024-11-07 19:10:45.062082,2024-12-03 22:02:33.062082,26,medium,blocker,infra,assignee_4,ui,fakesummary,interim1
+790,2025-03-09 10:56:02.062082,2026-02-25 17:16:31.062082,353,high,critical,backend,assignee_5,performance backend,fakesummary,interim1
+791,2025-06-10 10:08:43.062082,2027-03-17 01:35:07.062082,644,medium,blocker,ui,assignee_1,backend,fakesummary,interim1
+792,2025-02-08 14:51:42.062082,2025-06-28 04:06:19.062082,139,medium,critical,auth,assignee_1,ui regression performance,fakesummary,interim1
+793,2025-09-21 09:47:01.062082,2026-11-16 11:43:31.062082,421,medium,critical,obfuscation,assignee_1,backend,fakesummary,interim1
+794,2024-07-03 11:38:47.062082,2026-06-07 02:32:07.062082,703,high,major,ui,assignee_4,ui performance backend,fakesummary,interim1
+795,2024-03-05 01:17:38.062082,2024-05-31 23:05:50.062082,87,critical,major,obfuscation,assignee_5,backend regression ui,fakesummary,interim1
+796,2025-10-12 15:45:04.062082,2027-04-27 18:50:35.062082,562,medium,major,auth,assignee_4,backend,fakesummary,interim1
+797,2025-12-31 01:29:36.062082,2026-07-24 20:14:42.062082,205,critical,critical,payments,assignee_4,ui regression performance backend,fakesummary,interim1
+798,2024-03-30 06:08:10.062082,2024-09-29 19:51:46.062082,183,critical,critical,backend,assignee_1,backend,fakesummary,interim1
+799,2025-01-20 20:37:45.062082,2026-12-16 09:35:05.062082,694,critical,blocker,ui,assignee_3,regression ui,fakesummary,interim1
+800,2024-06-27 07:56:14.062082,2025-10-11 13:37:57.062082,471,high,critical,ui,assignee_2,regression performance,fakesummary,interim1
+801,2024-03-18 22:23:01.062082,2024-12-27 03:07:23.062082,283,medium,critical,registration,assignee_3,ui,fakesummary,interim1
+802,2024-03-25 15:50:42.062082,2026-01-09 19:38:26.062082,655,medium,major,backend,assignee_2,performance,fakesummary,interim1
+803,2025-05-24 16:32:22.062082,2026-09-19 20:21:10.062082,483,high,critical,auth,assignee_4,ui regression performance backend,fakesummary,interim1
+804,2025-02-14 03:50:18.062082,2026-03-01 07:00:26.062082,380,high,critical,ui,assignee_1,regression performance ui,fakesummary,interim1
+805,2025-01-26 19:31:22.062082,2025-07-25 12:05:55.062082,179,medium,major,obfuscation,assignee_4,performance backend,fakesummary,interim1
+806,2024-09-09 07:59:37.062082,2025-05-22 10:07:20.062082,255,high,blocker,registration,assignee_2,regression backend,fakesummary,interim1
+807,2025-09-03 13:35:35.062082,2026-10-26 01:13:11.062082,417,critical,critical,obfuscation,assignee_3,regression backend,fakesummary,interim1
+808,2024-06-14 02:53:22.062082,2025-01-13 13:08:47.062082,213,high,minor,infra,assignee_4,regression ui,fakesummary,interim1
+809,2025-01-22 15:34:04.062082,2025-09-17 22:17:37.062082,238,high,critical,obfuscation,assignee_4,regression performance,fakesummary,interim1
+810,2025-05-03 00:21:27.062082,2026-06-26 05:32:10.062082,419,medium,critical,infra,assignee_3,ui performance backend,fakesummary,interim1
+811,2024-07-05 21:47:57.062082,2024-11-02 06:11:17.062082,119,medium,critical,ui,assignee_1,ui regression backend,fakesummary,interim1
+812,2024-05-02 03:23:46.062082,2024-10-11 20:11:48.062082,162,medium,major,registration,assignee_5,backend ui,fakesummary,interim1
+813,2025-12-24 06:46:48.062082,2027-02-21 08:50:13.062082,424,medium,blocker,ui,assignee_5,performance regression backend ui,fakesummary,interim1
+814,2024-12-06 22:18:46.062082,2026-02-26 10:43:45.062082,446,critical,critical,ui,assignee_1,backend regression,fakesummary,interim1
+815,2025-09-14 11:17:49.062082,2027-04-01 22:31:14.062082,564,medium,major,backend,assignee_1,ui regression,fakesummary,interim1
+816,2025-10-03 04:00:01.062082,2027-09-19 11:21:16.062082,716,high,major,ui,assignee_5,regression,fakesummary,interim1
+817,2024-05-07 10:29:24.062082,2025-08-23 18:51:14.062082,473,medium,minor,backend,assignee_3,backend,fakesummary,interim1
+818,2025-12-04 22:48:42.062082,2027-05-15 21:37:31.062082,526,medium,critical,backend,assignee_1,regression,fakesummary,interim1
+819,2024-03-30 06:04:15.062082,2025-04-03 19:01:50.062082,369,medium,minor,infra,assignee_4,ui performance regression,fakesummary,interim1
+820,2025-12-28 04:49:51.062082,2026-08-31 16:33:03.062082,246,critical,critical,infra,assignee_4,ui,fakesummary,interim1
+821,2025-01-04 18:49:15.062082,2025-03-01 19:14:48.062082,56,medium,major,infra,assignee_5,performance regression,fakesummary,interim1
+822,2025-08-07 02:29:37.062082,2025-08-21 16:55:58.062082,14,critical,critical,registration,assignee_2,ui regression performance backend,fakesummary,interim1
+823,2024-07-23 07:46:30.062082,2024-09-01 00:30:30.062082,39,high,minor,auth,assignee_4,backend performance,fakesummary,interim1
+824,2025-10-25 17:16:19.062082,2026-01-31 13:46:00.062082,97,high,critical,infra,assignee_1,regression ui,fakesummary,interim1
+825,2025-05-14 06:54:56.062082,2026-06-29 07:22:04.062082,411,medium,critical,infra,assignee_4,ui,fakesummary,interim1
+826,2024-09-16 06:11:50.062082,2025-05-26 08:58:30.062082,252,critical,minor,backend,assignee_3,performance regression ui,fakesummary,interim1
+827,2024-04-13 22:36:10.062082,2025-02-23 18:34:06.062082,315,low,critical,infra,assignee_5,regression performance backend,fakesummary,interim1
+828,2024-11-21 17:38:08.062082,2025-12-06 00:27:16.062082,379,critical,blocker,ui,assignee_3,backend performance,fakesummary,interim1
+829,2025-12-31 15:00:23.062082,2026-04-30 19:23:49.062082,120,low,critical,obfuscation,assignee_4,backend performance ui regression,fakesummary,interim1
+830,2024-09-30 15:11:41.062082,2024-10-17 17:46:04.062082,17,medium,critical,registration,assignee_5,ui performance regression,fakesummary,interim1
+831,2024-04-09 15:34:16.062082,2025-10-21 16:15:08.062082,560,medium,blocker,ui,assignee_4,regression performance ui backend,fakesummary,interim1
+832,2025-08-30 14:20:03.062082,2026-04-25 20:48:03.062082,238,high,blocker,registration,assignee_1,regression performance backend,fakesummary,interim1
+833,2025-02-26 14:34:24.062082,2025-11-12 00:33:52.062082,258,high,major,backend,assignee_2,ui,fakesummary,interim1
+834,2026-01-06 10:23:53.062082,2027-12-12 18:00:56.062082,705,medium,major,backend,assignee_5,ui backend performance,fakesummary,interim1
+835,2025-08-22 18:56:00.062082,2026-01-23 14:15:07.062082,153,high,critical,infra,assignee_3,ui regression performance,fakesummary,interim1
+836,2024-10-07 01:38:04.062082,2025-02-28 16:31:25.062082,144,high,major,backend,assignee_4,regression ui,fakesummary,interim1
+837,2025-06-19 07:08:21.062082,2025-08-05 19:41:03.062082,47,critical,major,infra,assignee_3,backend,fakesummary,interim1
+838,2025-08-16 22:46:14.062082,2027-07-12 07:16:38.062082,694,critical,major,infra,assignee_2,ui,fakesummary,interim1
+839,2024-12-14 20:09:54.062082,2025-05-10 21:55:19.062082,147,medium,critical,auth,assignee_1,ui,fakesummary,interim1
+840,2024-12-07 05:46:43.062082,2026-03-23 08:05:39.062082,471,medium,critical,payments,assignee_3,ui regression,fakesummary,interim1
+841,2024-05-26 11:47:56.062082,2024-12-29 23:38:51.062082,217,high,critical,obfuscation,assignee_5,ui regression,fakesummary,interim1
+842,2025-01-17 02:24:31.062082,2025-04-03 15:15:19.062082,76,medium,major,backend,assignee_5,backend regression,fakesummary,interim1
+843,2025-04-27 03:35:16.062082,2025-11-16 12:19:06.062082,203,critical,blocker,auth,assignee_5,ui backend regression performance,fakesummary,interim1
+844,2025-04-24 11:35:03.062082,2025-08-10 07:33:27.062082,107,critical,blocker,payments,assignee_4,ui,fakesummary,interim1
+845,2025-01-01 03:11:36.062082,2025-11-18 03:15:45.062082,321,medium,critical,ui,assignee_1,regression backend,fakesummary,interim1
+846,2025-05-28 07:59:50.062082,2026-11-25 12:16:57.062082,546,high,critical,ui,assignee_5,regression,fakesummary,interim1
+847,2024-04-01 19:39:09.062082,2025-05-02 13:26:43.062082,395,high,critical,payments,assignee_4,backend performance ui regression,fakesummary,interim1
+848,2025-04-07 23:32:11.062082,2025-07-24 20:24:10.062082,107,high,major,infra,assignee_2,ui regression,fakesummary,interim1
+849,2024-03-03 05:58:33.062082,2024-07-21 03:29:26.062082,139,medium,critical,registration,assignee_2,performance,fakesummary,interim1
+850,2024-03-16 00:06:28.062082,2025-07-25 00:54:32.062082,496,critical,blocker,auth,assignee_3,ui,fakesummary,interim1
+851,2024-02-15 14:09:42.062082,2024-07-12 06:30:24.062082,147,medium,blocker,payments,assignee_2,regression backend performance,fakesummary,interim1
+852,2024-08-11 21:31:24.062082,2026-06-04 03:10:08.062082,661,critical,major,auth,assignee_2,regression performance backend ui,fakesummary,interim1
+853,2025-05-18 19:22:04.062082,2025-07-07 05:26:29.062082,49,high,blocker,auth,assignee_5,ui backend regression performance,fakesummary,interim1
+854,2024-01-27 22:55:00.062082,2024-12-29 07:06:42.062082,336,high,minor,ui,assignee_4,regression,fakesummary,interim1
+855,2026-01-03 16:22:39.062082,2026-12-04 05:36:50.062082,334,critical,critical,backend,assignee_4,backend ui regression performance,fakesummary,interim1
+856,2025-07-28 19:48:05.062082,2027-06-23 21:03:47.062082,695,critical,blocker,registration,assignee_1,backend ui regression,fakesummary,interim1
+857,2025-02-02 04:06:24.062082,2025-12-22 14:22:08.062082,323,high,major,registration,assignee_3,backend regression performance,fakesummary,interim1
+858,2025-05-01 15:09:06.062082,2025-08-01 06:15:22.062082,91,critical,blocker,ui,assignee_4,regression ui backend performance,fakesummary,interim1
+859,2024-06-04 12:13:01.062082,2024-11-13 04:05:03.062082,161,medium,major,registration,assignee_1,backend,fakesummary,interim1
+860,2024-05-12 00:55:23.062082,2025-11-09 00:58:30.062082,546,medium,blocker,ui,assignee_4,ui regression backend performance,fakesummary,interim1
+861,2025-08-21 10:32:20.062082,2026-01-25 07:17:39.062082,156,high,critical,ui,assignee_4,regression ui performance,fakesummary,interim1
+862,2025-10-02 03:27:33.062082,2027-05-23 20:13:13.062082,598,medium,blocker,backend,assignee_2,backend regression performance ui,fakesummary,interim1
+863,2024-12-28 02:53:35.062082,2026-09-18 21:04:03.062082,629,high,major,obfuscation,assignee_5,performance,fakesummary,interim1
+864,2025-10-29 16:52:44.062082,2025-11-17 19:14:48.062082,19,critical,critical,infra,assignee_1,performance,fakesummary,interim1
+865,2024-03-07 21:52:58.062082,2024-09-01 02:06:56.062082,177,critical,major,payments,assignee_4,performance ui backend,fakesummary,interim1
+866,2024-07-17 17:45:42.062082,2025-05-03 14:55:17.062082,289,high,critical,backend,assignee_2,ui regression performance backend,fakesummary,interim1
+867,2024-04-12 03:47:14.062082,2024-09-12 00:30:43.062082,152,critical,major,ui,assignee_1,regression,fakesummary,interim1
+868,2025-07-23 01:58:40.062082,2026-06-17 14:12:09.062082,329,medium,major,infra,assignee_3,regression backend performance ui,fakesummary,interim1
+869,2024-03-27 01:33:11.062082,2025-09-10 06:29:26.062082,532,high,major,ui,assignee_4,ui,fakesummary,interim1
+870,2025-11-06 03:27:00.062082,2027-05-26 00:50:52.062082,565,high,blocker,auth,assignee_4,ui regression backend,fakesummary,interim1
+871,2025-01-21 11:15:00.062082,2026-04-11 04:40:48.062082,444,high,major,auth,assignee_4,regression ui,fakesummary,interim1
+872,2024-07-30 06:16:00.062082,2024-10-20 11:46:07.062082,82,medium,major,ui,assignee_4,regression ui,fakesummary,interim1
+873,2025-05-11 22:18:53.062082,2026-08-08 05:41:35.062082,453,high,critical,infra,assignee_5,regression,fakesummary,interim1
+874,2025-01-01 14:45:15.062082,2026-05-14 20:55:49.062082,498,high,major,registration,assignee_3,ui regression backend,fakesummary,interim1
+875,2025-10-19 19:58:51.062082,2026-12-10 16:42:08.062082,416,critical,major,registration,assignee_1,ui,fakesummary,interim1
+876,2024-07-21 10:19:33.062082,2026-02-13 13:34:48.062082,572,medium,blocker,infra,assignee_3,backend performance ui regression,fakesummary,interim1
+877,2026-01-01 00:15:46.062082,2027-12-11 15:17:17.062082,709,high,major,infra,assignee_4,regression performance,fakesummary,interim1
+878,2025-05-11 12:14:37.062082,2026-06-09 05:00:37.062082,393,high,major,ui,assignee_5,performance,fakesummary,interim1
+879,2025-08-17 05:41:11.062082,2026-01-07 04:03:51.062082,142,critical,minor,payments,assignee_5,regression performance backend,fakesummary,interim1
+880,2025-09-10 13:58:34.062082,2026-07-25 10:24:29.062082,317,high,blocker,ui,assignee_1,backend ui performance,fakesummary,interim1
+881,2025-05-13 01:55:51.062082,2026-01-10 21:39:58.062082,242,medium,blocker,registration,assignee_4,ui,fakesummary,interim1
+882,2025-12-31 11:47:13.062082,2027-12-23 05:29:51.062082,721,low,minor,payments,assignee_3,backend,fakesummary,interim1
+883,2024-04-30 22:59:06.062082,2024-05-24 04:21:07.062082,23,critical,major,registration,assignee_2,ui regression,fakesummary,interim1
+884,2025-07-05 16:13:01.062082,2026-05-18 16:23:58.062082,317,medium,major,obfuscation,assignee_1,performance backend regression,fakesummary,interim1
+885,2024-09-18 01:51:08.062082,2026-02-06 12:48:32.062082,506,low,major,auth,assignee_3,performance ui regression backend,fakesummary,interim1
+886,2025-06-28 01:58:59.062082,2027-02-19 19:27:26.062082,601,critical,major,registration,assignee_4,backend ui,fakesummary,interim1
+887,2024-03-21 13:31:31.062082,2025-02-08 06:34:05.062082,323,medium,critical,backend,assignee_5,performance regression,fakesummary,interim1
+888,2025-11-19 06:55:45.062082,2025-12-08 04:05:48.062082,18,medium,minor,infra,assignee_3,ui regression performance backend,fakesummary,interim1
+889,2025-08-20 07:35:18.062082,2027-06-06 11:54:07.062082,655,critical,major,obfuscation,assignee_4,ui backend,fakesummary,interim1
+890,2025-10-03 17:35:04.062082,2026-07-31 13:55:40.062082,300,medium,minor,obfuscation,assignee_5,performance,fakesummary,interim1
+891,2025-11-26 09:41:25.062082,2027-11-02 00:37:08.062082,705,high,critical,infra,assignee_1,regression ui performance backend,fakesummary,interim1
+892,2025-11-15 17:45:31.062082,2026-08-04 13:44:35.062082,261,low,blocker,registration,assignee_4,regression performance backend,fakesummary,interim1
+893,2024-05-24 06:58:57.062082,2026-01-27 12:37:04.062082,613,medium,critical,payments,assignee_3,backend regression performance,fakesummary,interim1
+894,2024-11-16 06:26:44.062082,2026-08-08 16:06:06.062082,630,critical,major,ui,assignee_1,ui,fakesummary,interim1
+895,2025-01-01 23:33:06.062082,2025-10-06 18:50:06.062082,277,critical,blocker,registration,assignee_3,performance ui backend regression,fakesummary,interim1
+896,2024-09-30 02:08:14.062082,2024-10-29 00:31:24.062082,28,high,blocker,ui,assignee_4,ui performance backend regression,fakesummary,interim1
+897,2025-11-20 16:45:50.062082,2026-05-08 16:34:27.062082,168,critical,major,backend,assignee_5,performance backend ui regression,fakesummary,interim1
+898,2025-06-10 12:26:52.062082,2026-07-10 14:09:49.062082,395,low,major,infra,assignee_2,ui performance backend,fakesummary,interim1
+899,2024-05-01 07:23:12.062082,2025-04-01 09:09:49.062082,335,low,major,payments,assignee_1,ui,fakesummary,interim1
+900,2024-10-23 05:52:56.062082,2025-03-24 17:31:27.062082,152,medium,critical,infra,assignee_5,ui backend performance regression,fakesummary,interim1
+901,2024-08-25 15:02:55.062082,2026-01-11 04:34:49.062082,503,medium,critical,infra,assignee_2,performance ui regression backend,fakesummary,interim1
+902,2024-11-22 01:39:25.062082,2026-02-14 19:45:55.062082,449,medium,major,registration,assignee_3,backend ui,fakesummary,interim1
+903,2024-03-29 22:15:40.062082,2025-11-13 04:41:04.062082,593,high,minor,registration,assignee_5,regression backend,fakesummary,interim1
+904,2025-01-03 19:39:40.062082,2025-10-29 08:44:05.062082,298,critical,critical,backend,assignee_5,backend,fakesummary,interim1
+905,2025-02-23 11:11:05.062082,2025-08-17 13:33:45.062082,175,critical,critical,infra,assignee_4,regression,fakesummary,interim1
+906,2025-10-11 22:06:49.062082,2026-08-21 11:27:43.062082,313,critical,critical,obfuscation,assignee_5,backend performance ui regression,fakesummary,interim1
+907,2024-02-13 12:14:26.062082,2024-12-04 03:37:24.062082,294,medium,major,infra,assignee_4,backend performance,fakesummary,interim1
+908,2025-05-20 05:39:28.062082,2026-01-24 18:09:27.062082,249,medium,critical,infra,assignee_2,ui,fakesummary,interim1
+909,2025-12-19 17:12:05.062082,2027-06-28 12:57:11.062082,555,medium,blocker,backend,assignee_1,backend,fakesummary,interim1
+910,2025-05-30 08:23:34.062082,2026-12-12 04:56:04.062082,560,medium,blocker,auth,assignee_2,regression,fakesummary,interim1
+911,2025-06-02 03:53:45.062082,2026-09-06 21:00:15.062082,461,low,minor,backend,assignee_2,regression performance,fakesummary,interim1
+912,2024-12-30 12:50:24.062082,2025-09-13 09:00:35.062082,256,critical,critical,registration,assignee_2,ui,fakesummary,interim1
+913,2024-09-20 06:55:02.062082,2026-01-17 23:41:57.062082,484,high,critical,backend,assignee_3,backend,fakesummary,interim1
+914,2025-08-19 23:23:19.062082,2025-11-09 18:03:28.062082,81,high,critical,ui,assignee_5,ui performance backend,fakesummary,interim1
+915,2024-10-01 20:25:54.062082,2026-06-18 12:13:36.062082,624,medium,critical,backend,assignee_5,regression performance ui backend,fakesummary,interim1
+916,2025-12-20 18:43:43.062082,2027-08-19 13:44:05.062082,606,medium,major,auth,assignee_1,ui performance backend,fakesummary,interim1
+917,2024-06-21 05:35:11.062082,2025-02-26 23:29:08.062082,250,low,major,infra,assignee_1,regression backend,fakesummary,interim1
+918,2025-02-16 22:16:36.062082,2026-08-08 15:06:50.062082,537,low,blocker,obfuscation,assignee_5,performance,fakesummary,interim1
+919,2025-04-22 00:41:33.062082,2025-10-02 02:12:37.062082,163,high,minor,auth,assignee_4,backend ui,fakesummary,interim1
+920,2024-12-07 13:18:57.062082,2025-10-01 07:58:55.062082,297,low,critical,infra,assignee_5,regression ui performance,fakesummary,interim1
+921,2025-03-03 09:38:48.062082,2026-05-16 08:28:26.062082,438,critical,blocker,infra,assignee_5,performance ui backend regression,fakesummary,interim1
+922,2024-04-13 05:57:01.062082,2025-09-27 13:36:13.062082,532,high,major,auth,assignee_1,performance,fakesummary,interim1
+923,2024-03-05 09:35:37.062082,2026-02-08 15:17:54.062082,705,low,major,registration,assignee_1,backend performance,fakesummary,interim1
+924,2025-10-17 12:39:38.062082,2027-04-01 05:02:40.062082,530,high,major,obfuscation,assignee_5,ui performance,fakesummary,interim1
+925,2024-05-26 09:26:22.062082,2025-11-13 17:17:39.062082,536,medium,major,ui,assignee_1,backend ui,fakesummary,interim1
+926,2025-03-05 20:27:08.062082,2025-09-05 19:57:42.062082,183,high,blocker,ui,assignee_4,regression ui performance backend,fakesummary,interim1
+927,2024-08-31 14:01:38.062082,2024-10-03 22:35:26.062082,33,medium,major,ui,assignee_3,ui backend performance regression,fakesummary,interim1
+928,2024-04-29 17:21:29.062082,2024-12-05 12:33:42.062082,219,medium,critical,registration,assignee_2,backend ui performance regression,fakesummary,interim1
+929,2025-03-16 08:13:25.062082,2025-08-19 21:11:48.062082,156,medium,critical,obfuscation,assignee_2,regression ui,fakesummary,interim1
+930,2024-07-26 20:14:13.062082,2026-02-22 06:44:50.062082,575,high,major,payments,assignee_3,regression performance backend ui,fakesummary,interim1
+931,2024-09-23 20:04:44.062082,2026-01-05 14:01:19.062082,468,high,major,obfuscation,assignee_4,regression performance backend ui,fakesummary,interim1
+932,2025-12-15 21:05:38.062082,2027-03-15 02:58:33.062082,454,high,critical,infra,assignee_2,performance regression,fakesummary,interim1
+933,2024-11-26 21:18:40.062082,2026-06-07 14:34:59.062082,557,medium,critical,auth,assignee_5,regression backend ui,fakesummary,interim1
+934,2026-01-05 02:57:03.062082,2026-08-31 18:04:12.062082,238,medium,major,ui,assignee_2,regression,fakesummary,interim1
+935,2024-09-17 05:34:40.062082,2025-06-12 07:40:54.062082,268,high,critical,ui,assignee_4,ui regression backend performance,fakesummary,interim1
+936,2024-02-15 03:17:41.062082,2024-06-01 01:10:49.062082,106,medium,critical,auth,assignee_3,regression performance ui backend,fakesummary,interim1
+937,2025-01-20 09:30:11.062082,2025-09-23 20:26:20.062082,246,critical,critical,obfuscation,assignee_5,regression backend ui performance,fakesummary,interim1
+938,2025-05-20 18:40:20.062082,2025-09-03 08:09:30.062082,105,high,blocker,registration,assignee_1,backend ui performance,fakesummary,interim1
+939,2024-05-05 00:58:55.062082,2025-01-20 16:34:53.062082,260,medium,blocker,obfuscation,assignee_1,backend performance,fakesummary,interim1
+940,2024-05-14 07:29:41.062082,2026-01-21 21:19:30.062082,617,high,major,infra,assignee_2,ui regression backend performance,fakesummary,interim1
+941,2024-06-21 10:40:03.062082,2024-08-07 19:32:16.062082,47,critical,major,obfuscation,assignee_2,backend performance ui regression,fakesummary,interim1
+942,2025-09-28 14:19:19.062082,2027-07-26 09:35:49.062082,665,high,blocker,obfuscation,assignee_2,regression ui,fakesummary,interim1
+943,2024-07-09 00:04:40.062082,2025-02-21 12:40:08.062082,227,critical,blocker,registration,assignee_4,performance regression ui,fakesummary,interim1
+944,2024-06-07 19:55:07.062082,2025-11-16 07:04:41.062082,526,critical,critical,registration,assignee_2,regression backend,fakesummary,interim1
+945,2024-06-08 22:53:02.062082,2024-09-28 02:13:31.062082,111,critical,blocker,backend,assignee_4,backend performance regression ui,fakesummary,interim1
+946,2024-12-12 01:47:39.062082,2025-03-14 21:33:02.062082,92,medium,major,backend,assignee_4,regression,fakesummary,interim1
+947,2024-09-07 03:28:43.062082,2024-10-04 00:44:46.062082,26,high,critical,ui,assignee_3,backend performance regression ui,fakesummary,interim1
+948,2024-12-08 19:00:05.062082,2024-12-24 04:02:13.062082,15,medium,major,payments,assignee_1,backend regression performance ui,fakesummary,interim1
+949,2024-11-02 16:06:44.062082,2025-07-27 04:06:56.062082,266,high,minor,auth,assignee_2,performance backend regression,fakesummary,interim1
+950,2025-09-15 17:36:46.062082,2026-02-14 04:36:53.062082,151,medium,critical,obfuscation,assignee_2,ui performance backend,fakesummary,interim1
+951,2024-03-27 23:02:24.062082,2025-01-27 20:43:54.062082,305,medium,blocker,registration,assignee_4,ui regression,fakesummary,interim1
+952,2025-09-08 00:16:49.062082,2027-02-05 06:23:58.062082,515,medium,blocker,infra,assignee_4,performance,fakesummary,interim1
+953,2025-02-08 16:49:57.062082,2025-08-01 14:16:43.062082,173,medium,critical,payments,assignee_2,regression,fakesummary,interim1
+954,2024-11-04 00:40:22.062082,2026-05-21 10:50:50.062082,563,low,major,payments,assignee_4,backend performance regression,fakesummary,interim1
+955,2024-03-31 16:38:28.062082,2026-03-14 22:25:04.062082,713,high,major,auth,assignee_5,performance backend regression,fakesummary,interim1
+956,2024-04-06 21:32:53.062082,2025-11-19 04:49:29.062082,591,medium,major,auth,assignee_5,regression performance,fakesummary,interim1
+957,2025-12-28 23:37:38.062082,2026-07-15 16:32:46.062082,198,low,critical,registration,assignee_1,ui,fakesummary,interim1
+958,2025-02-17 19:00:01.062082,2026-11-05 23:27:48.062082,626,medium,major,payments,assignee_3,backend performance regression,fakesummary,interim1
+959,2024-06-23 08:51:01.062082,2026-05-12 19:19:45.062082,688,low,major,registration,assignee_4,ui backend regression performance,fakesummary,interim1
+960,2025-02-18 20:56:16.062082,2025-04-24 05:40:14.062082,64,high,blocker,backend,assignee_5,ui regression performance,fakesummary,interim1
+961,2024-01-10 02:27:45.062082,2025-09-17 18:02:21.062082,616,medium,critical,obfuscation,assignee_2,regression ui,fakesummary,interim1
+962,2024-03-31 20:45:59.062082,2025-08-19 01:49:41.062082,505,medium,blocker,payments,assignee_4,backend regression performance ui,fakesummary,interim1
+963,2024-01-11 04:42:40.062082,2024-09-26 19:12:40.062082,259,high,major,ui,assignee_3,backend performance regression ui,fakesummary,interim1
+964,2024-02-26 11:04:27.062082,2024-04-06 00:25:49.062082,39,medium,blocker,payments,assignee_1,regression backend,fakesummary,interim1
+965,2025-02-17 11:01:17.062082,2026-08-28 00:31:28.062082,556,high,critical,auth,assignee_4,performance backend ui regression,fakesummary,interim1
+966,2024-09-08 11:56:58.062082,2026-07-08 03:20:18.062082,667,medium,major,obfuscation,assignee_1,performance regression backend ui,fakesummary,interim1
+967,2025-07-22 05:49:24.062082,2027-01-12 06:10:57.062082,539,high,blocker,payments,assignee_3,performance backend,fakesummary,interim1
+968,2024-01-16 08:16:08.062082,2025-07-07 01:05:51.062082,537,high,critical,registration,assignee_3,regression performance backend,fakesummary,interim1
+969,2025-04-09 01:36:49.062082,2025-06-12 22:40:26.062082,64,medium,major,payments,assignee_3,performance,fakesummary,interim1
+970,2024-12-04 08:42:27.062082,2026-07-08 12:52:46.062082,581,high,critical,ui,assignee_3,regression,fakesummary,interim1
+971,2024-08-23 03:06:37.062082,2024-11-21 03:44:50.062082,90,critical,minor,payments,assignee_3,ui performance backend regression,fakesummary,interim1
+972,2024-03-26 19:03:59.062082,2024-08-31 02:01:30.062082,157,critical,blocker,payments,assignee_2,backend performance ui regression,fakesummary,interim1
+973,2024-05-28 14:16:36.062082,2026-03-04 16:28:51.062082,645,high,minor,infra,assignee_3,regression ui,fakesummary,interim1
+974,2025-01-24 16:49:48.062082,2026-07-20 06:40:36.062082,541,high,major,auth,assignee_1,performance backend ui,fakesummary,interim1
+975,2024-03-28 02:41:38.062082,2025-06-28 16:24:06.062082,457,critical,major,ui,assignee_2,backend ui,fakesummary,interim1
+976,2025-07-06 22:50:57.062082,2026-10-20 05:41:38.062082,470,critical,major,registration,assignee_1,backend,fakesummary,interim1
+977,2025-03-09 06:29:46.062082,2026-11-10 22:28:59.062082,611,critical,blocker,infra,assignee_5,performance ui,fakesummary,interim1
+978,2025-02-25 11:08:05.062082,2026-10-10 13:05:20.062082,592,medium,major,auth,assignee_2,ui performance,fakesummary,interim1
+979,2025-05-27 20:20:09.062082,2027-01-06 15:01:21.062082,588,high,major,backend,assignee_3,ui performance backend,fakesummary,interim1
+980,2025-03-15 05:29:12.062082,2026-02-04 17:08:51.062082,326,medium,major,obfuscation,assignee_2,performance ui,fakesummary,interim1
+981,2025-12-26 07:04:28.062082,2026-08-01 08:20:35.062082,218,medium,critical,infra,assignee_1,performance regression ui,fakesummary,interim1
+982,2024-06-27 09:42:32.062082,2025-05-07 19:25:18.062082,314,medium,blocker,payments,assignee_1,ui backend performance regression,fakesummary,interim1
+983,2025-06-15 00:00:00.062082,2026-06-28 16:24:17.062082,378,high,blocker,backend,assignee_2,performance,fakesummary,interim1
+984,2024-01-15 17:57:24.062082,2025-10-30 23:39:37.062082,654,high,critical,payments,assignee_3,backend ui,fakesummary,interim1
+985,2025-09-25 21:16:34.062082,2026-08-14 00:28:35.062082,322,high,major,ui,assignee_1,ui regression,fakesummary,interim1
+986,2024-12-10 10:33:57.062082,2025-12-30 05:45:51.062082,384,medium,major,registration,assignee_3,regression backend,fakesummary,interim1
+987,2025-03-29 05:21:38.062082,2026-01-20 12:44:36.062082,297,critical,critical,payments,assignee_1,performance,fakesummary,interim1
+988,2024-06-26 04:23:17.062082,2025-08-27 01:22:57.062082,426,critical,critical,registration,assignee_5,ui backend performance regression,fakesummary,interim1
+989,2025-08-10 01:49:26.062082,2026-06-29 22:27:13.062082,323,medium,critical,payments,assignee_4,regression backend,fakesummary,interim1
+990,2024-02-25 18:53:33.062082,2024-03-29 12:07:49.062082,32,high,minor,auth,assignee_3,ui regression performance,fakesummary,interim1
+991,2025-09-10 05:06:05.062082,2026-06-12 22:39:01.062082,275,critical,major,payments,assignee_1,backend,fakesummary,interim1
+992,2025-04-21 16:23:59.062082,2026-02-04 01:44:01.062082,288,high,blocker,infra,assignee_3,ui performance regression backend,fakesummary,interim1
+993,2024-01-29 03:24:45.062082,2025-07-31 12:28:14.062082,549,medium,major,ui,assignee_1,ui,fakesummary,interim1
+994,2025-10-07 04:20:00.062082,2027-07-13 03:03:47.062082,643,high,critical,registration,assignee_1,performance backend ui,fakesummary,interim1
+995,2024-03-31 18:48:48.062082,2024-09-09 04:16:14.062082,161,medium,critical,payments,assignee_5,backend,fakesummary,interim1
+996,2024-07-31 12:49:32.062082,2025-08-22 16:56:51.062082,387,medium,critical,ui,assignee_3,regression performance ui,fakesummary,interim1
+997,2026-01-03 06:57:46.062082,2026-10-09 20:48:47.062082,279,high,blocker,payments,assignee_4,performance backend ui regression,fakesummary,interim1
+998,2025-10-21 04:14:01.062082,2027-05-10 23:16:37.062082,566,critical,blocker,auth,assignee_4,regression,fakesummary,interim1
+999,2025-01-27 15:30:48.062082,2026-04-08 08:01:16.062082,435,high,blocker,obfuscation,assignee_1,ui backend performance,fakesummary,interim1
+1000,2024-05-18 14:51:50.062082,2024-07-04 05:04:33.062082,46,medium,blocker,obfuscation,assignee_1,regression performance ui,fakesummary,interim1
