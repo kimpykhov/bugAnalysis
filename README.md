@@ -11,5 +11,6 @@ of such predictions in a noisy, real-world setting.
 - External dependencies (team load, releases, organizational factors) are not represented in the data.
 - Predictions are valid only within the distribution of historical data and may degrade for unseen components or 
 workflows.
+- EDA assumptions and validation plan are documented in docs/eda_plan.md.
 
 ## All datasets in the project are synthetic.
