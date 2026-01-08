@@ -23,7 +23,7 @@ with open(OUTPUT_PATH, "w", newline="", encoding="utf-8") as file:
         label_amount = random.randint(1, 4)
         bug_labels = " ".join(random.sample(distributions.labels, k=label_amount))
 
-        writer.writerow([i, created_at, closed_at, days,
+        writer.writerow([f'fakePrj-{i}', created_at, closed_at, days,
                          random.choices(distributions.priority, weights=distributions.weights_priority, k=1)[0],
                          random.choices(distributions.severity, weights=distributions.weights_severity, k=1)[0],
                          random.choice(distributions.component),
